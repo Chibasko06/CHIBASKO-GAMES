@@ -43,6 +43,7 @@ header {
     font-weight: 300;
     color: #00b3b3;
     margin-top: 10px;
+    font-style: italic;
 }   
 
 /* Navigation */
@@ -223,15 +224,32 @@ footer {
     color: #d9d9d9;
     text-align: center;
     border-top: 0.2rem solid #00ffcc;
+    font-size: 0.9em;
+    line-height: 1.8;
 }
 
 footer a {
     color: #00ffcc;
     text-decoration: none;
     font-weight: bold;
+    margin: 0 5px;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
     color: #00b3b3;
+}
+
+
+/* Décale le contenu principal à droite */
+main, header, aside, footer {
+    margin-left: 60px;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar:hover ~ main,
+.sidebar:hover ~ header,
+.sidebar:hover ~ aside,
+.sidebar:hover ~ footer {
+    margin-left: 200px;
 }
