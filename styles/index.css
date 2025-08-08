@@ -271,3 +271,62 @@ main, header, aside, footer {
 .sidebar:hover ~ footer {
     margin-left: 200px;
 }
+
+/*formulaire contact*/
+form {
+    background-color: #1a1a1a;
+    border-left: 3px solid #00ffcc;
+    padding: 30px 20px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    color: #00ffcc;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+form input, form textarea {
+    background-color: #0d0d0d;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box; /* pour ne pas dépasser les limites */
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #00b3b3;
+    box-shadow: 0 0 5px #00b3b3;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #00ffcc;
+    color: #0d0d0d;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #00b3b3;
+    transform: scale(1.03);
+}
