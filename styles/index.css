@@ -58,6 +58,7 @@ header {
     overflow-x: hidden;
     transition: width 0.3s ease;
     display: flex;
+    justify-content: flex-start; /* aligner à gauche quand on élargit */    
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
@@ -71,35 +72,54 @@ header {
     padding-left: 15px;
 }
 
+.sidebar:hover .sidebar-link {
+    justify-content: flex-start; /* aligner à gauche quand on élargit */
+}
+
+.sidebar:hover .sidebar-link .text {
+    opacity: 1;
+    margin-left: 60px;
+}
+
 /* Liens dans la sidebar */
 .sidebar-link {
     display: flex;
     align-items: center;
+    justify-content: center; /* centrer les emojis quand la barre est réduite */
     color: #00ffcc;
     text-decoration: none;
     padding: 15px 10px;
     transition: background-color 0.2s ease;
     width: 100%;
+    min-width: 60px;
+    position: relative;
 }
 
-.sidebar-link:hover {
-    background-color: #00ffcc22;
+.sidebar-link .icon {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center; /* centrer les emojis quand la barre est réduite */
+  width: 60px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
 }
 
-.sidebar-link img {
+.sidebar-link .text {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s ease, margin-left 0.3s ease;
+    margin-left: 0;
+}
+
+.sidebar-link img{
     width: 24px;
     height: 24px;
     margin-right: 10px;
 }
 
-.sidebar-link span {
-    opacity: 0;
-    white-space: nowrap;
-    transition: opacity 0.3s ease;
-}
-
-.sidebar:hover .sidebar-link span {
-    opacity: 1;
+.sidebar-link:hover {
+    background-color: #00ffcc22;
 }
 
 /* Recherche dans la barre latérale */
