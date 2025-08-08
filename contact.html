@@ -7,37 +7,74 @@
     </head>
     <body>
         <header>
-                <div class="top-bar">
-                    <a href="./index.html">
-                        <img src="./images/Logo_ChibaskoGames-rond.png" alt="logo Chibasko Games">
-                    </a>
-                    <h1>Chibasko Games</h1>
+            <div class="top-bar">
+                <a href="./index.html">
+                    <img src="./images/Logo_ChibaskoGames-rond.png" alt="logo Chibasko Games">
+                </a>
+                <h1>Chibasko Games</h1>
+            </div>
+            <h2 class="subtitle">Un univers de jeux sans précédant !</h2>
+            <nav class="sidebar">
+                <div class="search-container">
+                    <input type="search" placeholder="Rechercher..." class="search-bar">
+                    <span class="search-icon">🔍</span>
                 </div>
-                <h2 class="subtitle">Un univers de jeux sans précédant !</h2>
-                <nav class="sidebar">
-                    <div class="search-container">
-                        <input type="search" placeholder="Rechercher..." class="search-bar">
-                        <span class="search-icon">🔍</span>
-                    </div>
-                    <a href="./index.html" class="sidebar-link">
-                        <span class="icon">🏠</span>
-                        <span class="text">Accueil</span>
-                    </a>
+                <a href="./index.html" class="sidebar-link">
+                    <span class="icon">🏠</span>
+                    <span class="text">Accueil</span>
+                </a>
 
-                    <a href="./action.html" class="sidebar-link">
-                        <span class="icon">⚔️</span>
-                        <span class="text">Action</span>
-                    </a>
-                    <a href="./aventure.html" class="sidebar-link">
-                        <span class="icon">🧭</span>
-                        <span class="text">Aventure</span>
-                    </a>
-                    <a href="./classique.html" class="sidebar-link">
-                        <span class="icon">♠️</span>
-                        <span class="text">Classique</span>
-                    </a>
-                </nav>
+                <a href="./action.html" class="sidebar-link">
+                    <span class="icon">⚔️</span>
+                    <span class="text">Action</span>
+                </a>
+                <a href="./aventure.html" class="sidebar-link">
+                    <span class="icon">🧭</span>
+                    <span class="text">Aventure</span>
+                </a>
+                <a href="./classique.html" class="sidebar-link">
+                    <span class="icon">♠️</span>
+                    <span class="text">Classique</span>
+                </a>
+            </nav>
         </header>
+        <main>
+            <section class="contact">
+                <h1>Contactez-nous</h1>
+                <p>Une question, une suggestion ou un bug à signaler ? L'équipe Chibasko Games est à votre écoute !</p>
+            </section>
+            <section class="Email">
+                <h2>📧 Email</h2>
+                <article>
+                    <p><a href="mailto:contact@chibaskogames.com">contact@chibaskogames.com</a></p>
+                </article>
+            </section>
+            <section class="Réseaux">
+                <h2>📱 Réseaux sociaux</h2>
+                <article>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter / X</a>
+                    <a href="#">Discord</a>
+                </article>
+            </section>
+            <section>
+                <h2>📬 Formulaire</h2>
+                <article>
+                <form action="traitement.php" method="post">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+                </article>
+            </section>
+        </main>
         <footer>
             <p>&copy; 2025 Chibasko Games. Tous droits réservés.</p>
 
