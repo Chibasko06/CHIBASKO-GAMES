@@ -363,3 +363,12 @@ form button[type="submit"]:hover {
 .arborescence a:hover {
     color: #00ffcc;
 }
+
+.arborescence h1 {
+    color: #00ffcc;
+    padding-left: 15px;
+}
+
+.arborescence p{
+    padding-left: 15px;
+}
