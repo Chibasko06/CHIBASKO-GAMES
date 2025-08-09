@@ -350,3 +350,16 @@ form button[type="submit"]:hover {
     background-color: #00b3b3;
     transform: scale(1.03);
 }
+
+/* arboressence action*/
+.arborescence a {
+    color: #00b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.arborescence a:hover {
+    color: #00ffcc;
+}
