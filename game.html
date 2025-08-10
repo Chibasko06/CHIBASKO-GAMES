@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <style>
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <a href="./index.html">
+                <img src="./images/Logo_ChibaskoGames-rond.png" alt="logo Chibasko Games">
+            </a>
+            <h1>Chibasko Games</h1>
+        </div>
+        <h2 class="subtitle">Un univers de jeux sans précédant !</h2>
+        <nav class="sidebar">
+            <div class="search-container">
+                <input type="search" placeholder="Rechercher..." class="search-bar">
+                <span class="search-icon">🔍</span>
+            </div>
+            <a href="./index.html" class="sidebar-link">
+                <span class="icon">🏠</span>
+                <span class="text">Accueil</span>
+            </a>
+            <a href="./action.html" class="sidebar-link">
+                <span class="icon">⚔️</span>
+                <span class="text">Action</span>
+            </a>
+            <a href="./aventure.html" class="sidebar-link">
+                <span class="icon">🧭</span>
+                <span class="text">Aventure</span>
+            </a>
+            <a href="./classique.html" class="sidebar-link">
+                <span class="icon">♠️</span>
+                <span class="text">Classique</span>
+            </a>
+        </nav>
+    </header>
+
+     <main>
+        <h1 id="game-title"></h1>
+        <iframe id="game-frame" allowfullscreen></iframe>
+        <p id="game-description"></p>
+        <a href="./index.html">⬅ Retour aux jeux</a>
+    </main>
+
+    <script src="JavaScript/game-data.js"></script>
+    <script src="JavaScript/index.js"></script>
+
+
+    <footer>
+        <p>&copy; 2025 Chibasko Games. Tous droits réservés.</p>
+
+        <p>
+            Développé avec soin par <a href="./contact.html">l’équipe Chibasko</a> | 
+            <a href="./contact.html">Mentions légales</a> | 
+            <a href="./contact.html">Contact</a>
+        </p>
+        <p>
+            Suivez-nous :
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="#"><i class="fab fa-discord"></i> Discord</a> |
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
