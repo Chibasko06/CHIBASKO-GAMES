@@ -1,0 +1,30 @@
+/*classique*/ 
+
+
+jeu d'echec :
+
+<iframe src="https://html5.gamemonetize.co/u3vfu3ocwhdperazqcfr292brdp07pau/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+pac-man :
+
+<iframe src="https://html5.gamemonetize.co/3uwoe2havsewdy7r15l1nz226qbvrqvv/" width="640" height="840" scrolling="none" frameborder="0"></iframe>
+
+bloc tetrix :
+
+<iframe src="https://html5.gamemonetize.co/1mag1l65xefg1rzrrl65nf6xsa6d14yw/" width="360" height="640" scrolling="none" frameborder="0"></iframe>
+
+/* aventure */ 
+
+super sprunki :
+
+<iframe src="https://html5.gamemonetize.co/yh0n2bobl4i5wdm0z43l7rhow2nk62qy/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+/* action */
+
+orc hero :
+
+<iframe src="https://html5.gamemonetize.co/lqv5exvjamjgzqbhojbdqpdbe72tptet/" width="854" height="480" scrolling="none" frameborder="0"></iframe>
+
+jumper :
+
+<iframe src="https://html5.gamemonetize.co/5ag61ag42etsgzqx1gsik1jeorem15ok/" width="800" height="600" scrolling="none" frameborder="0"></iframe>

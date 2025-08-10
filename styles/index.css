@@ -372,3 +372,76 @@ form button[type="submit"]:hover {
 .arborescence p{
     padding-left: 15px;
 }
+
+
+/* jeu*/
+
+.games-carousel {
+    position: relative;
+    background-color: #262626;
+    padding: 20px 40px; /* espace pour les flèches */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+.games-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.games-wrapper::-webkit-scrollbar {
+    display: none; /* Masque la scrollbar sur Chrome/Safari */
+}
+.games-wrapper {
+    -ms-overflow-style: none;  /* Masque la scrollbar sur IE/Edge */
+    scrollbar-width: none;     /* Masque la scrollbar sur Firefox */
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 255, 204, 0.7);
+    border: none;
+    color: #0d0d0d;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background-color 0.2s;
+}
+
+.carousel-btn:hover {
+    background-color: #00ffcc;
+}
+
+.carousel-btn.left {
+    left: 5px;
+}
+.carousel-btn.right {
+    right: 5px;
+}
+
+.game-container {
+    flex: 0 0 auto; /* reste en taille fixe dans le carrousel */
+    width: 290px;
+    height: 180px;
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.game-container img,
+.game-container iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
