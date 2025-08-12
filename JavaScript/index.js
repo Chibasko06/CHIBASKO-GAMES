@@ -14,7 +14,7 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
 });
 
 // Code existant pour charger les jeux dans un iframe
-document.querySelectorAll('.game-container').forEach(container => {
+document.querySelectorAll('.Image').forEach(container => {
     container.addEventListener('click', () => {
         const gameURL = container.getAttribute('data-game');
         container.innerHTML = `<iframe src="${gameURL}" allowfullscreen></iframe>`;

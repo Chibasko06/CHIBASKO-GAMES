@@ -427,22 +427,32 @@ form button[type="submit"]:hover {
 }
 
 .game-container {
-    flex: 0 0 auto; /* reste en taille fixe dans le carrousel */
+    flex: 0 0 auto;
     width: 290px;
-    height: 180px;
-    margin: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    cursor: pointer;
-    
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Image au-dessus, texte en dessous */
+    align-items: center; /* Centre le titre horizontalement */
 }
 
-.game-container img,
-.game-container iframe {
+.Image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Image img {
     width: 100%;
     height: 100%;
     object-fit: fill;
-    border: none;
+}
+
+.Titre {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1rem;
 }
 
 iframe {
@@ -467,4 +477,5 @@ iframe {
     color: #00b3b3;
     padding-left: 20px;
 }
+
 

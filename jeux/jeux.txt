@@ -19,12 +19,17 @@ super sprunki :
 
 <iframe src="https://html5.gamemonetize.co/yh0n2bobl4i5wdm0z43l7rhow2nk62qy/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
 
+jumper :
+
+<iframe src="https://html5.gamemonetize.co/5ag61ag42etsgzqx1gsik1jeorem15ok/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :
 
 <iframe src="https://html5.gamemonetize.co/lqv5exvjamjgzqbhojbdqpdbe72tptet/" width="854" height="480" scrolling="none" frameborder="0"></iframe>
 
-jumper :
+Stop Zombie :
 
-<iframe src="https://html5.gamemonetize.co/5ag61ag42etsgzqx1gsik1jeorem15ok/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+<iframe src="https://html5.gamemonetize.co/8sttq4hfxsvoveqhy43cp39updyjcs48/" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+

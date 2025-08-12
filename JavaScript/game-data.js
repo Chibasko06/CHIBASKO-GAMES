@@ -47,5 +47,13 @@ const games = {
         date_sortie: "1 février 2023",
         technologie: "HTML5 (Unity WebGL)",
         description: "Une étrange créature doit atteindre le sommet sans tomber. Essayez d'aller le plus loin possible et faites attention aux pièges. Profitez des sons et des graphismes d'ambiance"
+    },
+    stop_zombie: {
+        title: "Stop Zombie",
+        url: "https://html5.gamemonetize.co/8sttq4hfxsvoveqhy43cp39updyjcs48/",
+        developpeur: "Tgames",
+        date_sortie: "27 juin 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Armé d'un blaster tirant des projectiles colorés, vous devez tenir bon face à une horde implacable dans Stop Zombies. Chaque créature morte-vivante ne peut être éliminée qu'avec une balle de sa couleur ; la vivacité d'esprit et des réflexes aiguisés sont donc votre meilleure défense. Face à la horde grandissante, votre survie dépend de votre vigilance et de votre intelligence pour empêcher"
     }
 };
