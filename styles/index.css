@@ -441,7 +441,30 @@ form button[type="submit"]:hover {
 .game-container iframe {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     border: none;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.detail {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease;
+    margin-right: 30%;
+}
+
+.donnee {
+    font-size: 1em;
+    font-weight: 300;
+    color: #00b3b3;
+    padding-left: 20px;
 }
 

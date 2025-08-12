@@ -1,24 +1,25 @@
+//scroll bar
 document.querySelectorAll('.games-carousel').forEach(carousel => {
-                const wrapper = carousel.querySelector('.games-wrapper');
-                const btnLeft = carousel.querySelector('.carousel-btn.left');
-                const btnRight = carousel.querySelector('.carousel-btn.right');
+    const wrapper = carousel.querySelector('.games-wrapper');
+    const btnLeft = carousel.querySelector('.carousel-btn.left');
+    const btnRight = carousel.querySelector('.carousel-btn.right');
 
-                btnLeft.addEventListener('click', () => {
-                    wrapper.scrollBy({ left: -400, behavior: 'smooth' });
-                });
+    btnLeft.addEventListener('click', () => {
+        wrapper.scrollBy({ left: -400, behavior: 'smooth' });
+    });
 
-                btnRight.addEventListener('click', () => {
-                    wrapper.scrollBy({ left: 400, behavior: 'smooth' });
-                });
-            });
+    btnRight.addEventListener('click', () => {
+        wrapper.scrollBy({ left: 400, behavior: 'smooth' });
+    });
+});
 
-            // Code existant pour charger les jeux dans un iframe
-            document.querySelectorAll('.game-container').forEach(container => {
-                container.addEventListener('click', () => {
-                    const gameURL = container.getAttribute('data-game');
-                    container.innerHTML = `<iframe src="${gameURL}" allowfullscreen></iframe>`;
-                });
-            });
+// Code existant pour charger les jeux dans un iframe
+document.querySelectorAll('.game-container').forEach(container => {
+    container.addEventListener('click', () => {
+        const gameURL = container.getAttribute('data-game');
+        container.innerHTML = `<iframe src="${gameURL}" allowfullscreen></iframe>`;
+    });
+});
 
 
 /*parti jeux */
@@ -29,8 +30,12 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
 
         // Vérifie si le jeu existe dans notre liste
         if (games[gameId]) {
+            document.getElementById("game-head").textContent = games[gameId].title;
             document.getElementById("game-title").textContent = games[gameId].title;
             document.getElementById("game-frame").src = games[gameId].url;
+            document.getElementById("game-developpeur").textContent = games[gameId].developpeur;
+            document.getElementById("game-date_sortie").textContent = games[gameId].date_sortie;
+            document.getElementById("game-technologie").textContent = games[gameId].technologie;
             document.getElementById("game-description").textContent = games[gameId].description;
         } else {
             document.getElementById("game-title").textContent = "Jeu introuvable";
