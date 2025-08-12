@@ -400,31 +400,47 @@ form button[type="submit"]:hover {
     scrollbar-width: none;     /* Masque la scrollbar sur Firefox */
 }
 
+/* Style général des flèches */
+/* Boutons en forme de bande verticale transparente */
 .carousel-btn {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 255, 204, 0.7);
+    top: 0;
+    bottom: 0;
+    width: 50px; /* largeur de la bande */
+    background-color: rgba(0, 0, 0, 0.5); /* fond semi-transparent */
     border: none;
-    color: #0d0d0d;
-    font-size: 2rem;
+    color: #00ffcc; /* couleur de la flèche */
+    font-size: 5rem;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 50%;
-    z-index: 10;
-    transition: background-color 0.2s;
+    opacity: 0; /* caché par défaut */
+    pointer-events: none; /* clic désactivé par défaut */
+    transition: opacity 0.3s, background-color 0.2s;
+    display: flex;
+    align-items: center; /* centre la flèche verticalement */
+    justify-content: center; /* centre la flèche horizontalement */
 }
 
-.carousel-btn:hover {
-    background-color: #00ffcc;
+/* Afficher uniquement au survol du carrousel */
+.games-carousel:hover .carousel-btn {
+    opacity: 1;
+    pointer-events: auto;
 }
 
+/* Placement gauche et droite */
 .carousel-btn.left {
-    left: 5px;
+    left: 0;
 }
+
 .carousel-btn.right {
-    right: 5px;
+    right: 0;
 }
+
+/* Effet au survol de la bande */
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* plus sombre au survol */
+    color: #00b3b3;
+}
+
 
 .game-container {
     flex: 0 0 auto;

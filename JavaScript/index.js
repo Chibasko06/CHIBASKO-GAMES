@@ -4,6 +4,27 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
     const btnLeft = carousel.querySelector('.carousel-btn.left');
     const btnRight = carousel.querySelector('.carousel-btn.right');
 
+// Fonction pour vérifier si on est au début ou à la fin
+    function updateButtons() {
+        const scrollLeft = wrapper.scrollLeft;
+        const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+
+        // Tout à gauche
+        if (scrollLeft <= 0) {
+            btnLeft.style.display = "none";
+        } else {
+            btnLeft.style.display = "flex";
+        }
+
+        // Tout à droite
+        if (scrollLeft >= maxScrollLeft) {
+            btnRight.style.display = "none";
+        } else {
+            btnRight.style.display = "flex";
+        }
+    }
+
+   // Écouter le clic sur les boutons
     btnLeft.addEventListener('click', () => {
         wrapper.scrollBy({ left: -400, behavior: 'smooth' });
     });
@@ -11,6 +32,13 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
     btnRight.addEventListener('click', () => {
         wrapper.scrollBy({ left: 400, behavior: 'smooth' });
     });
+
+     // Vérifier au chargement et quand on scroll
+    wrapper.addEventListener('scroll', updateButtons);
+    window.addEventListener('resize', updateButtons);
+
+    // Premier appel
+    updateButtons();
 });
 
 // Code existant pour charger les jeux dans un iframe
