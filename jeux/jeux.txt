@@ -23,6 +23,10 @@ jumper :
 
 <iframe src="https://html5.gamemonetize.co/5ag61ag42etsgzqx1gsik1jeorem15ok/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+motocross tout-terraain:
+
+<iframe src="https://html5.gamemonetize.co/vcecgonbw7uvc92nrt8xgwx9meouuqtz/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :
@@ -33,3 +37,42 @@ Stop Zombie :
 
 <iframe src="https://html5.gamemonetize.co/8sttq4hfxsvoveqhy43cp39updyjcs48/" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
 
+dead seek:
+
+<iframe src="https://html5.gamemonetize.co/zt2tti9k25tgwbwmnacqoxz6l921m956/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+stickman street fighter 3D:
+
+<iframe src="https://html5.gamemonetize.co/r5tug67vf8lprllpnawokwa3p0xddr45/" width="900" height="600" scrolling="none" frameborder="0"></iframe>
+
+duel of builder :
+
+<iframe src="https://html5.gamemonetize.co/hhqdm1lz6isab49dpaaaecxxkr465hs0/" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+
+stickman slash:
+
+<iframe src="https://html5.gamemonetize.co/dimgvlqk0miw677p6zv1snl4u3491l3i/" width="480" height="800" scrolling="none" frameborder="0"></iframe>
+
+stickman Sniper:
+
+<iframe src="https://html5.gamemonetize.co/pnu56ck5blbnesweiw2z1ule6o530x9e/" width="480" height="800" scrolling="none" frameborder="0"></iframe>
+
+cod duty fps:
+
+<iframe src="https://html5.gamemonetize.co/rc0aptuuleju6xnlpeds38lisqpz1hzu/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+force armee.io: 
+
+<iframe src="https://html5.gamemonetize.co/31sze1xgnq00dw16hvmett3re4q2qx9w/" width="960" height="540" scrolling="none" frameborder="0"></iframe>
+
+freehead skate:
+
+<iframe src="https://html5.gamemonetize.co/museimxpj23qgd30oirvj1xlmc0vouem/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+dunk slash:
+
+<iframe src="https://html5.gamemonetize.co/r5q7wmk5mdoulxc1pjzpekh8mkcyrsun/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+iron legend: 
+
+<iframe src="https://html5.gamemonetize.co/gkeofcoqengjzxlw0b09f2qrng35egbi/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
