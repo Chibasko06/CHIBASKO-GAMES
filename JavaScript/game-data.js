@@ -206,5 +206,59 @@ const games = {
         date_sortie: "03 décembre 2024",
         technologie: "HTML5 (Unity WebGL)",
         description: "Préparez-vous à vivre l'aventure ultime avec Level Demon ! Plongez dans un monde rempli de niveaux palpitants, d'énigmes hallucinantes et de défis incessants qui mettront vos compétences à rude épreuve."
+    },
+    run_guys_knockout_royal: {
+        title: "Run Guys: Knockout Royal",
+        url: "https://html5.gamemonetize.co/bivqu9s6efq0gk7rknnqlad3qw0ncizt/",
+        image: "./images/Run Guys  Knockout Royale-512x340.jpg",
+        developpeur: "Bestgames.com",
+        date_sortie: "4 juillet 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Vivez le chaos, les rires et l'action dans Run Guys: Knockout Royale. Un jeu de course royale multijoueur. En mode bascule, franchissez les bascules les unes après les autres, gardez l'équilibre et foncez vers la ligne d'arrivée. Foncez à toute vitesse à travers des colonnes de bois tournoyantes, des sols et des obstacles pièges. Chaque niveau éliminera les joueurs les plus lents. En mode escalade, soyez le premier à atteindre le sommet et à sauter sur la couronne."
+    },
+    draw_deadly_descent: {
+        title: "Draw Deaadly Descent",
+        url: "https://html5.gamemonetize.co/zerem82y7t9exktu4sj6ilbt9b8mr0bp/",
+        image: "./images/Draw Deadly Descent-512x340.jpg",
+        developpeur: "Kbvpneofit",
+        date_sortie: "04 août 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Draw Deadly Descent est un jeu combinant deux éléments. Il s'agit d'une partie puzzle où vous devez d'abord dessiner une route ou un pont. La deuxième partie, où vous contrôlez déjà la voiture, comme dans Hill Climb Racing, c'est-à-dire grâce aux effets physiques. Le jeu comporte 42 niveaux. Si vous rencontrez un niveau difficile, vous pouvez le passer en regardant une publicité ! Le jeu propose également 7 variantes de coloriage de voiture."
+    },
+    red_man_imposter: {
+        title: "Red Man Imposter",
+        url: "https://html5.gamemonetize.co/fixu5ee6ilwhcogp55dk01aiyqwtxasd/",
+        image: "./images/Red Man Imposter-512x340.jpg",
+        developpeur: "Kbvpneofit",
+        date_sortie: "16 février 2021",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Voici un jeu de plateforme et de réflexion stimulant où vous devez terminer un niveau. Pour cela, vous devez effectuer chaque étape correctement, car les blocs que vous passez deviennent solides ! Terminez tous les niveaux et prouvez que vous êtes un génie !"
+    },
+    duck_duck: {
+        title: "Duck Duck",
+        url: "https://html5.gamemonetize.co/x7zbtxe85r6eg442x2b69vpce8w6g8qk/",
+        image: "./images/Duck Duck-512x340.jpg",
+        developpeur: "Zorlex",
+        date_sortie: "17 juillet 2O25",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "En tant que petit canard courageux, vous vous lancez dans une aventure palpitante à travers des paysages périlleux. Votre objectif ultime est de récupérer une clé cruciale qui ouvrira la voie, tout en évitant les piques acérées qui menacent de vous interrompre à chaque tournant. Clé en main et chemin dégagé, vous pourrez enfin atteindre le niveau suivant, où de nouveaux obstacles et surprises vous attendent. Parviendrez-vous à surmonter les dangers et à remporter la victoire ?"
+    },
+    lazzy_birds: {
+        title: "Lazzy Birds",
+        url: "https://html5.gamemonetize.co/98he3ddjltg9jrt5ba53tnegnbunm2aj/",
+        image: "./images/Lazzy Birds-512x340.jpg",
+        developpeur: "John Games",
+        date_sortie: "05 août 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Lazzy Birds est un jeu de réflexion amusant et basé sur la physique. Vous lancez des oiseaux à l'aide d'une fronde pour détruire vos ennemis. Votre mission est de vaincre tous les ennemis de chaque niveau en utilisant des oiseaux spéciaux et des courts-métrages limités. Oiseaux : 1 Bleu : un oiseau simple. 2 Noir : un bombardier. 3 Vert : un oiseau rapide. 4 Rouge : un oiseau lourd."
+    },
+    single_line_drawing_puzzle: {
+        title: "Single Line: Drawing Puzzle",
+        url: "https://html5.gamemonetize.co/achrkouru4jq8yj33krvszvgxuz02w6i/",
+        image: "./images/Single Line  Drawing Puzzle-512x340.jpg",
+        developpeur: "Bravestars Games",
+        date_sortie: "04 août 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Icône image Single Line: Drawing Puzzle À propos de ce jeu Défiez votre esprit et libérez votre créativité avec Single Line: Drawing Puzzle ! Ce jeu passionnant est parfait pour tous ceux qui aiment les casse-têtes et aiment résoudre des énigmes intelligentes. Votre mission est simple mais addictive : tracez une ligne continue pour compléter des motifs complexes sans lever le doigt ni revenir sur vos pas. Êtes-vous prêt à relever le défi ?"
     }
 };

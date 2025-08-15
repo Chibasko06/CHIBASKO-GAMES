@@ -13,6 +13,14 @@ bloc tetrix :
 
 <iframe src="https://html5.gamemonetize.co/1mag1l65xefg1rzrrl65nf6xsa6d14yw/" width="360" height="640" scrolling="none" frameborder="0"></iframe>
 
+lazzy birds:
+
+<iframe src="https://html5.gamemonetize.co/98he3ddjltg9jrt5ba53tnegnbunm2aj/" width="800" height="450" scrolling="none" frameborder="0"></iframe>
+
+sigle line: drawing puzzle:
+
+<iframe src="https://html5.gamemonetize.co/achrkouru4jq8yj33krvszvgxuz02w6i/" width="1080" height="1920" scrolling="none" frameborder="0"></iframe>
+
 /* aventure */ 
 
 super sprunki :
@@ -34,6 +42,24 @@ truck simulator :
 spirite boy:
 
 <iframe src="https://html5.gamemonetize.co/1q6swhq95j9i4olu3luuea72ocg1ornl/" width="512" height="288" scrolling="none" frameborder="0"></iframe>
+
+run guys: knockout royal:
+
+<iframe src="https://html5.gamemonetize.co/bivqu9s6efq0gk7rknnqlad3qw0ncizt/" width="1334" height="750" scrolling="none" frameborder="0"></iframe>
+
+draw Deadly descent:
+
+<iframe src="https://html5.gamemonetize.co/zerem82y7t9exktu4sj6ilbt9b8mr0bp/" width="640" height="480" scrolling="none" frameborder="0"></iframe>
+
+red man imposter:
+
+<iframe src="https://html5.gamemonetize.co/fixu5ee6ilwhcogp55dk01aiyqwtxasd/" width="480" height="640" scrolling="none" frameborder="0"></iframe>
+
+duck duck:
+
+<iframe src="https://html5.gamemonetize.co/x7zbtxe85r6eg442x2b69vpce8w6g8qk/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+
 
 /* action */
 
