@@ -179,5 +179,32 @@ const games = {
         date_sortie: "16 août 2022",
         technologie: "HTML5 (Unity WebGL)",
         description: "Dans un environnement rétro créé à partir de couches de papier, les maîtres d'arts martiaux sont prêts à démontrer leur talent. Paper Fighter 3D propose des combats courts à 1 ou 2 joueurs. Chaque combat se déroule en 3 rounds et celui qui en remporte 2 remporte le match. Utilisez vos coups de poing et de pied au bon moment our terraser votre adversaire !"
+    },
+    truck_simulator: {
+        title: "Truck Simulator",
+        url: "https://html5.gamemonetize.co/tampigfifvuf28d2naypn6nchtzkmg3c/",
+        image: "./images/Truck Simulator Arcade Championship-512x384.jpg",
+        developpeur: "breyman games",
+        date_sortie: "02 avril 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Truck Simulator Arcade Championship est un jeu de course de camions exaltant qui allie l'intensité d'une compétition à grande vitesse à la précision de la conduite de camions massifs et puissants. Ce jeu offre une expérience arcade pleine d'action où les joueurs prennent le contrôle de différents types de camions et s'affrontent dans des courses exigeantes sur des circuits et des terrains variés. Avec son gameplay frénétique, ses environnements dynamiques et ses rivalités acharnées, Truck Simulator Arcade Championship est le test ultime de tous les passionés de truck !"
+    },
+    spirit_boy: {
+        title: "Spirit Boy",
+        url: "https://html5.gamemonetize.co/1q6swhq95j9i4olu3luuea72ocg1ornl/",
+        image: "./images/Spirit Boy-512x340.jpg",
+        developpeur: "Tgames",
+        date_sortie: "26 juin 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Dans cette aventure pleine d'énigmes, vous guidez un garçon à travers des niveaux complexes, remplis de pièges mortels et de défis ingénieux. Face au danger, Spirit Boy se transforme en âme fantomatique, lui permettant de flotter au-delà des pics et d'atteindre des zones cachées. Mais pour terminer le niveau, il doit reprendre sa forme humaine et trouver la porte de sortie tout en protégeant ses trois précieuses vies."
+    },
+    level_dimon: {
+        title: "Level Dimon",
+        url: "https://html5.gamemonetize.co/9llrfmi4nkeek3mtwv0cnnbkfap3tj7y/",
+        image: "./images/Level Demon-512x340.jpg",
+        developpeur: "Tgames",
+        date_sortie: "03 décembre 2024",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Préparez-vous à vivre l'aventure ultime avec Level Demon ! Plongez dans un monde rempli de niveaux palpitants, d'énigmes hallucinantes et de défis incessants qui mettront vos compétences à rude épreuve."
     }
 };

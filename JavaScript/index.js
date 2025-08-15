@@ -69,3 +69,29 @@ document.querySelectorAll('.Image').forEach(container => {
             document.getElementById("game-title").textContent = "Jeu introuvable";
             document.getElementById("game-description").textContent = "Désolé, ce jeu n'existe pas.";
         }
+
+
+/*option de iframe (plein ecrant et recharger)*/
+document.addEventListener("DOMContentLoaded", () => {
+    const iframe = document.getElementById("game-frame");
+    const fullscreenBtn = document.getElementById("fullscreen-btn");
+    const reloadBtn = document.getElementById("reload-btn");
+
+    // Plein écran
+    fullscreenBtn.addEventListener("click", () => {
+        if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+        } else if (iframe.mozRequestFullScreen) { // Firefox
+            iframe.mozRequestFullScreen();
+        } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
+            iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) { // IE/Edge
+            iframe.msRequestFullscreen();
+        }
+    });
+
+    // Recharger le jeu
+    reloadBtn.addEventListener("click", () => {
+        iframe.src = iframe.src;
+    });
+});

@@ -27,6 +27,14 @@ motocross tout-terraain:
 
 <iframe src="https://html5.gamemonetize.co/vcecgonbw7uvc92nrt8xgwx9meouuqtz/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+truck simulator :
+
+<iframe src="https://html5.gamemonetize.co/tampigfifvuf28d2naypn6nchtzkmg3c/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+spirite boy:
+
+<iframe src="https://html5.gamemonetize.co/1q6swhq95j9i4olu3luuea72ocg1ornl/" width="512" height="288" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :

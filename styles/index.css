@@ -565,3 +565,58 @@ iframe {
     flex-direction: column; /* Image au-dessus, texte en dessous */
     align-items: center; /* Centre le titre horizontalement */
 }
+
+/*game*/
+.game {
+    border: 3px solid #00ffcc;
+    border-radius: 10px;
+    padding: 5px;
+    background: #1a1a1a;
+    box-shadow: 0 0 15px #00b3b3;
+    max-width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#game-frame {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 0;
+}
+
+.game-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 5px 10px;
+}
+
+.toolbar-left img.toolbar-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.toolbar-right {
+    display: flex;
+    gap: 8px;
+}
+
+.game-toolbar button {
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.game-toolbar button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
