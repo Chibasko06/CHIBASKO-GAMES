@@ -170,5 +170,14 @@ const games = {
         date_sortie: "18 avril 2025",
         technologie: "HTML5 (Unity WebGL)",
         description: "Les rues sont perturbées et les forces du mal sont à l'œuvre. Découvrez Streets Of Rage, un jeu de combat de rue aux allures d'arcade. Choisissez entre Coup de pied tourbillonnant, ATK VITESSE augmentée, Explosion de feu et bien plus encore pour commencer votre combat. Affrontez des vagues d'ennemis, lancez de puissants combos et devenez le guerrier ultime"
+    },
+    paper_fighter_3d: {
+        title: "Paper Fighter 3D",
+        url: "https://html5.gamemonetize.co/9tlze1e5encxk1ncnvfox4qx1h22f340/",
+        image: "./images/Paper Fighter 3D-512x340.jpg",
+        developpeur: "RHM Interactive OU",
+        date_sortie: "16 août 2022",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Dans un environnement rétro créé à partir de couches de papier, les maîtres d'arts martiaux sont prêts à démontrer leur talent. Paper Fighter 3D propose des combats courts à 1 ou 2 joueurs. Chaque combat se déroule en 3 rounds et celui qui en remporte 2 remporte le match. Utilisez vos coups de poing et de pied au bon moment our terraser votre adversaire !"
     }
 };

@@ -80,3 +80,7 @@ iron legend:
 street of rage: 
 
 <iframe src="https://html5.gamemonetize.co/mg8yyr1z59tawzapm79vfzwg2y2o78u1/" width="1920" height="1080" scrolling="none" frameborder="0"></iframe>
+
+paper fighter 3d:
+
+<iframe src="https://html5.gamemonetize.co/9tlze1e5encxk1ncnvfox4qx1h22f340/" width="800" height="450" scrolling="none" frameborder="0"></iframe>

@@ -155,7 +155,7 @@ header {
     left: 0;
     width: 100%;
     max-height: 300px;
-    overflow-y: auto;
+    overflow: hidden;
     background-color: #1a1a1a; /* légèrement plus clair que le header */
     border: 1px solid #00ffcc; /* accent cyan */
     border-radius: 10px;
@@ -263,6 +263,18 @@ main h2 {
     color: #00ffcc;
     margin-bottom: 15px;
     text-align: center;
+}
+
+.see-more {
+    font-size: 0.4em;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #00b3b3;
+    transition: color 0.3s;
+}
+
+.see-more:hover {
+    color: #00ffcc;
 }
 
 article {
@@ -421,9 +433,7 @@ form button[type="submit"]:hover {
     padding-left: 15px;
 }
 
-
 /* jeu*/
-
 .games-carousel {
     position: relative;
     background-color: #262626;
@@ -478,7 +488,6 @@ form button[type="submit"]:hover {
 .carousel-btn.left {
     left: 0;
 }
-
 .carousel-btn.right {
     right: 0;
 }
