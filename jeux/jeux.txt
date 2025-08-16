@@ -21,6 +21,38 @@ sigle line: drawing puzzle:
 
 <iframe src="https://html5.gamemonetize.co/achrkouru4jq8yj33krvszvgxuz02w6i/" width="1080" height="1920" scrolling="none" frameborder="0"></iframe>
 
+geometry waves:
+
+<iframe src="https://html5.gamemonetize.co/v1zud8fjalvqmwndggvm5ukwl4lswqzp/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+paper.io 2:
+
+<iframe src="https://html5.gamemonetize.co/1skj7a1hu68a1p31ag4ywljq4gb18oma/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+solitaire classique:
+
+<iframe src="https://html5.gamemonetize.co/nsdahuvzyoduhfrbutl45r78x97ilkri/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+snake.io:
+
+<iframe src="https://html5.gamemonetize.co/cq1w4465kb23vvz3xykws4db3ax5bz6n/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+among us online v3:
+
+<iframe src="https://html5.gamemonetize.co/n2294odux88zuqkl35s7rjoyns90cebj/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+super mario memory card:
+
+<iframe src="https://html5.gamemonetize.co/yyrof22q5fmv3l1pmj9fgego7yzt9yv4/" width="1920" height="1080" scrolling="none" frameborder="0"></iframe>
+
+night racing:
+
+<iframe src="https://html5.gamemonetize.co/vpyg4xx30zcxx3sv2p8ke2ws7bvwg08v/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+mini soccer:
+
+<iframe src="https://html5.gamemonetize.co/or51fhgaqtlb2fldz8opctagkirnp0ys/" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+
 /* aventure */ 
 
 super sprunki :
@@ -59,7 +91,33 @@ duck duck:
 
 <iframe src="https://html5.gamemonetize.co/x7zbtxe85r6eg442x2b69vpce8w6g8qk/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+one bit:
 
+<iframe src="https://html5.gamemonetize.co/bhgysistyfih290cgcv3vsoamvlrk99t/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+horror eyes escape:
+
+<iframe src="https://html5.gamemonetize.co/vqhi6n4h4rifpx7a87m9d3kzzwo8njm0/" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+
+horror granny escape:
+
+<iframe src="https://html5.gamemonetize.co/17cny9076f3ov9fjvqvnq35b5y507f38/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+redboy and bluegirl: 
+
+<iframe src="https://html5.gamemonetize.co/dtzfne60s2a6so3csew9x2t9dby1v9h9/" width="960" height="600" scrolling="none" frameborder="0"></iframe>
+
+tall boss run:
+
+<iframe src="https://html5.gamemonetize.co/skiossve1c9yi6q6lewmovlmntq35iis/" width="350" height="600" scrolling="none" frameborder="0"></iframe>
+
+serpent nokia classic:
+
+<iframe src="https://html5.gamemonetize.co/xjd7qcm24nhpiletzxw22rpr5ieq3z9q/" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+lost adventure:
+
+<iframe src="https://html5.gamemonetize.co/y2kyrbazobem9n4gbbptaqrl83qlt2pr/" width="1920" height="1080" scrolling="none" frameborder="0"></iframe>
 
 /* action */
 

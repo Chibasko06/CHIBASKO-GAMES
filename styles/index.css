@@ -591,7 +591,8 @@ iframe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222;
+    background-color: #00b3b3;
+    opacity: 0.8;
     padding: 5px 10px;
 }
 

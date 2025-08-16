@@ -260,5 +260,149 @@ const games = {
         date_sortie: "04 août 2025",
         technologie: "HTML5 (Unity WebGL)",
         description: "Icône image Single Line: Drawing Puzzle À propos de ce jeu Défiez votre esprit et libérez votre créativité avec Single Line: Drawing Puzzle ! Ce jeu passionnant est parfait pour tous ceux qui aiment les casse-têtes et aiment résoudre des énigmes intelligentes. Votre mission est simple mais addictive : tracez une ligne continue pour compléter des motifs complexes sans lever le doigt ni revenir sur vos pas. Êtes-vous prêt à relever le défi ?"
+    },
+    dames_online_elite: {
+        title: "Dames Online Elite",
+        url: "https://html5.gamemonetize.co/wfzbxdfvtz15y2y8t6x667cw8cxha7ky/",
+        image: "./images/Dames Online Elite-512x384.jpg",
+        developpeur: "Jssgames",
+        date_sortie: "06 décembre 2022",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Les dames (également appelées dames ou damas dans d'autres langues) sont un jeu ancien et bien connu qui est toujours populaire aujourd'hui grâce à ses règles simples et son gameplay addictif, qui implique des stratégies sophistiquées et de nombreuses variantes."
+    },
+    one_bit: {
+        title: "One Bit",
+        url: "https://html5.gamemonetize.co/bhgysistyfih290cgcv3vsoamvlrk99t/",
+        image: "./images/One Bit-512x340.jpg",
+        developpeur: "Hexapp",
+        date_sortie: "07 novembre 2023",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Commencez à surmonter les obstacles avec votre personnage One Bit dans le jeu One Bit ! N'oubliez pas d'obtenir un point de contrôle et de remporter la partie en surmontant les obstacles !"
+    },
+    horror_eyes_escape: {
+        title: "Horror Eyes Escape",
+        url: "https://html5.gamemonetize.co/vqhi6n4h4rifpx7a87m9d3kzzwo8njm0/",
+        image: "./images/Horror Eyes Escape-512x340.jpg",
+        developpeur: "CB Games",
+        date_sortie: "28 novembre 2024",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Plongez dans un monde terrifiant et terrifiant avec Horror Eyes Escape, une aventure horrifique à vous glacer le sang où le passé refuse de rester enfoui. Explorez deux lieux hantés – une morgue désolée et une école obscure – chacun rempli d'horreurs indicibles. Rencontrez l'esprit agité d'une morte vengeresse et échappez aux griffes d'ennemis cannibales sauvages tapis dans l'ombre. À chaque tournant, un nouveau cauchemar vous attend. Résolvez des énigmes sinistres et dévoilez de sombres secrets."
+    },
+    horror_granny_escape: {
+        title: "Horror Granny Escape",
+        url: "https://html5.gamemonetize.co/17cny9076f3ov9fjvqvnq35b5y507f38/",
+        image: "./images/Horror Granny Escape-512x384.jpg",
+        developpeur: "Igroutka",
+        date_sortie: "26 août 2019",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Il faut d'abord trouver un moyen de sortir de la pièce. Il devrait y avoir une clé quelque part. Regardez attentivement autour de vous, fouillez les meubles et examinez le contenu des tiroirs. Vous devrez le faire assez souvent, alors commencez à vous y habituer dès maintenant. Il y a de nombreuses pièces de ce type dans la maison, et chacune contient le nécessaire pour s'échapper. Ce n'est qu'en rassemblant tous les objets nécessaires que vous pourrez désactiver l'alarme et déverrouiller la porte d'entrée."
+    },
+    redboy_and_bluegirl: {
+        title: "RedBoy And BlueGirl",
+        url: "https://html5.gamemonetize.co/dtzfne60s2a6so3csew9x2t9dby1v9h9/",
+        image: "./images/RedBoy and BlueGirl-512x384.jpg",
+        developpeur: "Igroutka",
+        date_sortie: "09 janvier 2020",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Êtes-vous un fan inconditionnel du jeu en équipe et du jeu de feu et de glace ? Tombez amoureux du labyrinthe d'aventures et souvenez-vous de votre enfance ? Ce jeu est fait pour vous : un garçon rouge et une fille bleue dans la sombre forêt labyrinthique. Le garçon rouge (le garçon de feu) et son amante (la fille de l'eau bleue) qui l'accompagne sont un jeu d'aventure et de réflexion à deux joueurs."
+    },
+    tall_boss_run: {
+        title: "Tall Boss Run",
+        url: "https://html5.gamemonetize.co/skiossve1c9yi6q6lewmovlmntq35iis/",
+        image: "./images/Tall Boss Run-512x340.jpg",
+        developpeur: "SoulHouse",
+        date_sortie: "31 décembre 2024",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Le jeu de parkour Tall Boss Run est amusant ! Pour vaincre les robots et terminer les niveaux, faites en sorte que votre grand bonhomme soit aussi grand et large que possible. Guidez-le à travers les bonnes portes pour qu'il grandisse et grandisse. Attention aux obstacles : s'ils sont heurtés, votre grand bonhomme s'effondrera. C'est le meilleur jeu de parkour de tous les temps ! Amusez-vous bien !"
+    },
+    snake_nokia_classic: {
+        title: "Snake Nokia Classic",
+        url: "https://html5.gamemonetize.co/xjd7qcm24nhpiletzxw22rpr5ieq3z9q/",
+        image: "./images/Snake Nokia Classic-512x384.jpg",
+        developpeur: "Breyman Games",
+        date_sortie: "21 juillet 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Revivez l'ère légendaire du jeu mobile avec Snake Nokia Classic, un hommage fidèle au jeu emblématique qui a marqué des générations. Guidez votre serpent pixelisé à travers une grille verte lumineuse, mangez la nourriture pour grandir et évitez les collisions. Simple, rapide et addictif, comme l'original."
+    },
+    geometry_waves: {
+        title: "Geometry Waves",
+        url: "https://html5.gamemonetize.co/v1zud8fjalvqmwndggvm5ukwl4lswqzp/",
+        image: "./images/Geometry Waves-512x384.jpg",
+        developpeur: "Breyman Games",
+        date_sortie: "01 août 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Geometry Waves est un jeu de réflexes effréné où la précision est primordiale. Maintenez la souris enfoncée pour faire monter votre flèche, relâchez-la pour la faire descendre. Naviguez à travers un labyrinthe éclairé au néon, peuplé de pièges mouvants et d'une géométrie trompeuse. Chacun des 30 niveaux, conçus à la main, introduit une nouvelle mécanique d'obstacles : des ninjas disparaissant par intermittence, des barrières cachées qui n'apparaissent que lorsque vous êtes proche, et des défis imprévisibles conçus pour tester votre timing et votre concentration."
+    },
+    paper_io_2: {
+        title: "Paper.io 2",
+        url: "https://html5.gamemonetize.co/1skj7a1hu68a1p31ag4ywljq4gb18oma/",
+        image: "./images/Paper IO 2-512x340.jpg",
+        developpeur: "DRA",
+        date_sortie:"06 décembre 2019",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Conquérez de nouveaux territoires et terrassez vos ennemis dans le nouveau jeu palpitant Paper.io 2. Chaque joueur commence avec une petite île. Agrandissez-la en y ajoutant de nouvelles zones, mais attention aux ennemis. Vous êtes en sécurité sur votre territoire, mais une fois à l'extérieur, vous devenez vulnérable. Protégez votre arrière-garde et n'hésitez pas à contre-attaquer !"
+    },
+    lost_adventure: {
+        title: "Lost Adventure",
+        url: "https://html5.gamemonetize.co/y2kyrbazobem9n4gbbptaqrl83qlt2pr/",
+        image: "./images/Lost Adventure-512x384.jpg",
+        developpeur: "Ultre Games Entrainment Private Limited",
+        date_sortie: "07 août 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Les survivants d'un crash aérien se retrouvent dans un monde mystérieux. Entre artisanat, exploitation minière et résolution d'énigmes, le pilote travaille sans relâche pour sauver les passagers bloqués sur des îles isolées au milieu des herbes folles. Parviendront-ils à surmonter les défis, à se réunir et à échapper à ce royaume énigmatique avant que les dangers inconnus qui guettent la nature sauvage ne les engloutissent tous ? Embarquez pour une aventure palpitante après qu'un accident d'avion vous a bloqué dans un monde mystérieux et sauvage. En tant que pilote, vous devez récupérer des ressources dans les débris, fabriquer des outils et naviguer à travers les herbes folles pour secourir les passagers dispersés sur de petites îles."
+    },
+    solitaire_classic: {
+        title: "Solitaire Classic",
+        url: "https://html5.gamemonetize.co/nsdahuvzyoduhfrbutl45r78x97ilkri/",
+        image: "./images/Solitaire Classique-512x384.jpg",
+        developpeur: "Playgames",
+        date_sortie: "05 décembre 2022",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Impossible de rêver d'une meilleure application pour se détendre en famille et tester sa SAGACITÉ ! Ce jeu ravira les fans de solitaire, les passionnés de jeux de cartes et les joueurs occasionnels !"
+    },
+    snake_io: {
+        title: "Snake.io",
+        url: "https://html5.gamemonetize.co/cq1w4465kb23vvz3xykws4db3ax5bz6n/",
+        image: "./images/Snake IO   Angry Slither Worm -512x340.jpg",
+        developpeur: "6woo.com",
+        date_sortie: "12 juin 2020",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Snake.io - Jeux de combat arcade addictifs et amusants. Glissez-vous dans une nouvelle version compétitive de Snake et survivez aussi longtemps que possible ! Défiez vos amis et essayez de devenir le plus gros ver de Snake.io !"
+    },
+    among_us_online: {
+        title: "Among Us Online",
+        url: "https://html5.gamemonetize.co/n2294odux88zuqkl35s7rjoyns90cebj/",
+        image: "./images/Among Us Online v3-512x340.jpg",
+        developpeur: "CB Games",
+        date_sortie: "08 octobre 2021",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Bienvenue dans Among Us Online v3. Jouez en solo ou en tant qu'imposteur à bord du vaisseau spatial. Vous pouvez saboter le vaisseau ou éliminer les ennemis un par un sans vous faire prendre. Personnalisez votre personnage et les paramètres de jeu. Bon jeu !"
+    },
+    super_mario_memory_card: {
+        title: "Super Mario Memory Card",
+        url: "https://html5.gamemonetize.co/yyrof22q5fmv3l1pmj9fgego7yzt9yv4/",
+        image: "./images/Super Mario Memory Card Match-512x340.jpg",
+        developpeur: "CB Games",
+        date_sortie: "30 décembre 2024",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Super Mario Memory Card Match est un jeu de cartes captivant qui vous emmène dans une aventure haute en couleur, pleine de fun et de défis ! Plongez dans l'univers de Mario, un héros courageux et joyeux, et testez votre mémoire et vos réflexes pour associer des cartes identiques avant la fin du temps imparti. Avec des graphismes éclatants, une musique entraînante et des niveaux de difficulté progressifs, ce jeu divertira petits et grands. Retournez les cartes pour découvrir des images d'objets, de personnages et de scènes emblématiques inspirés des jeux de plateforme classiques Super Mario."
+    },
+    night_racing: {
+        title: "Night Racing",
+        url: "https://html5.gamemonetize.co/vpyg4xx30zcxx3sv2p8ke2ws7bvwg08v/",
+        image: "./images/Night Racing-512x340.jpg",
+        developpeur: "FPDA",
+        date_sortie: "09 juillet 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Préparez-vous pour des courses nocturnes palpitantes dans une ville pleine d'adrénaline ! Dans ce jeu, devenez un véritable pilote de rue. Montez au volant d'une puissante voiture de sport et parcourez les rues de la ville nocturne où des défis palpitants vous attendent. Accomplissez diverses missions et réalisez des figures pour démontrer vos talents de pilote, en évitant la police et en la laissant loin derrière vous. Au fil du jeu, vous aurez l'occasion d'acheter de nouvelles voitures, plus puissantes et plus rapides. Devenez le roi des courses de rue !"
+    },
+    mini_soccer: {
+        title: "Mini Soccer",
+        url: "https://html5.gamemonetize.co/or51fhgaqtlb2fldz8opctagkirnp0ys/",
+        image: "./images/Mini Soccer-512x384.jpg",
+        developpeur: "Onduck Games",
+        date_sortie: "24 octobre 2023",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Mini Soccer est un jeu de football sportif et dynamique où vous pouvez défier vos amis ou jouer contre l'IA. Choisissez votre joueur préféré et affrontez l'IA lors du tournoi ou surpassez vos amis en mode versus. Choisissez parmi les meilleures équipes du monde, 3 terrains de jeu et profitez de tout le plaisir d'un jeu d'arcade en un seul jeu."
     }
 };

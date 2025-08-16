@@ -26,11 +26,11 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
 
    // Écouter le clic sur les boutons
     btnLeft.addEventListener('click', () => {
-        wrapper.scrollBy({ left: -400, behavior: 'smooth' });
+        wrapper.scrollBy({ left: -500, behavior: 'smooth' });
     });
 
     btnRight.addEventListener('click', () => {
-        wrapper.scrollBy({ left: 400, behavior: 'smooth' });
+        wrapper.scrollBy({ left: 500, behavior: 'smooth' });
     });
 
      // Vérifier au chargement et quand on scroll
