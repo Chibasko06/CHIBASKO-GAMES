@@ -694,21 +694,25 @@ iframe {
 }
 
 /*google translate*/
+/* Positionne le sélecteur en haut à droite */
 #google_translate_element {
-  margin: 10px;
-  text-align: center; /* ou left/right selon l’emplacement */
+  margin-left: auto;
+  margin-right: 20px;
 }
 
+/* Style du menu déroulant */
 .goog-te-combo {
   padding: 5px 10px;
   border-radius: 5px;
   border: 2px solid #00ffcc;
   background: #1a1a1a;
-  color: #fff;
+  color: #00ffcc;
   font-size: 14px;
   cursor: pointer;
+  outline: none;
 }
 
+/* Hover effet */
 .goog-te-combo:hover {
   background: #00ffcc;
   color: #000;
