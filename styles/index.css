@@ -239,19 +239,8 @@ header {
 
 /* Main */
 main {
-
     margin: 0 auto;
     padding: 20px;
-}
-
-.contact h1{
-    font-size: 2em;
-    color: #00ffcc;
-    margin-bottom: 15px;
-}
-
-.contact p {
-    font-family: sans-serif;
 }
 
 main section {
@@ -332,7 +321,18 @@ main, header, aside, footer {
     margin-left: 200px;
 }
 
-/*reseaux sociaux*/
+/*page contact*/
+.contact h1{
+    font-size: 2em;
+    color: #00ffcc;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-family: sans-serif;
+}
+
+/*reseaux sociaux contact*/
 .social-links {
     display: flex;
     justify-content: center;
@@ -350,7 +350,6 @@ main, header, aside, footer {
     transform: scale(1.1);
     filter: drop-shadow(0 0 5px #00ffcc);
 }
-
 
 /*formulaire contact*/
 form {
@@ -498,7 +497,6 @@ form button[type="submit"]:hover {
     color: #00b3b3;
 }
 
-
 .game-container {
     flex: 0 0 auto;
     width: 290px;
@@ -552,7 +550,7 @@ iframe {
 }
 
 /*partie categories*/
-/* faire en sorte que les jeux s'affiche en page(dans action) et non en ligne'comme dans l'index)*/
+/* faire en sorte que les jeux s'affiche en page et non en ligne'comme dans l'index)*/
 .categorie .games-wrapper{
     flex-wrap: wrap;
 }
@@ -692,5 +690,3 @@ iframe {
     color: #00b3b3;
     border-bottom-color: #00ffcc;
 }
-
-
