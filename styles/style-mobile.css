@@ -126,6 +126,11 @@
     width: 200px;
   }
 
+  .game-toolbar button {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
   .Image {
     height: 120px;
   }
