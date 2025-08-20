@@ -158,13 +158,33 @@ header {
     left: 0;
     width: 100%;
     max-height: 300px;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     background-color: #1a1a1a; /* légèrement plus clair que le header */
     border: 1px solid #00ffcc; /* accent cyan */
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
     z-index: 1000;
 }
+
+/*styliszation de la scrollbar vertical*/
+/* Chrome, Edge, Safari */
+.search-results::-webkit-scrollbar {
+    width: 6px; /* largeur de la barre */
+    background: transparent; /* pas de fond */
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background-color: #000000; /* couleur de la barre */
+    border-radius: 3px; /* coins arrondis */
+}
+
+/* Firefox */
+.search-results {
+    scrollbar-width: thin; /* fine */
+    scrollbar-color: #000000 transparent; /* couleur barre / fond */
+}
+
 
 .search-item {
     display: flex;
@@ -184,11 +204,19 @@ header {
     border-radius: 6px;
 }
 
-.search-item span {
+.search-item span.title {
     font-size: 1em;
     font-weight: 500;
     color: #00ffcc;
 }
+
+.search-item span.developer {
+    display: block;
+    font-size: 0.7em;
+    color: #00b3b3;
+    margin-top: 3px;
+}
+
 
 .search-item:hover {
     background-color: #0d0d0d; /* effet hover subtil */

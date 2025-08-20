@@ -27,7 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     gameEl.innerHTML = `
                         <img src="${game.image}" alt="${game.title}">
-                        <span>${game.title}</span>
+                        <div>
+                            <span class="title">${game.title}</span>
+                            <span class="developer">${game.developpeur}</span>
+                        </div>
                     `;
                     resultsContainer.appendChild(gameEl);
                 });
