@@ -40,3 +40,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+const resultsContainer = document.querySelector(".search-results");
+
+resultsContainer.addEventListener('touchstart', function(e) {
+    this.startY = e.touches[0].pageY;
+    this.scrollStart = this.scrollTop;
+}, { passive: true });
+
+resultsContainer.addEventListener('touchmove', function(e) {
+    const touchY = e.touches[0].pageY;
+    const deltaY = this.startY - touchY;
+
+    // Si on est en haut et qu'on descend ou en bas et qu'on monte, empêcher le scroll de la page
+    if ((this.scrollTop === 0 && deltaY < 0) || 
+        (this.scrollTop + this.offsetHeight >= this.scrollHeight && deltaY > 0)) {
+        e.preventDefault();
+    }
+}, { passive: false });
