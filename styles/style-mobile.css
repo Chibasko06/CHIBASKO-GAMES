@@ -1,0 +1,186 @@
+/* ============================= */
+/* VERSION MOBILE (max 425px)    */
+/* ============================= */
+@media (max-width: 426px) {
+
+  /* Général */
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* En-tête */
+  header {
+    padding: 15px 0;
+  }
+
+  .top-bar img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .top-bar h1 {
+    font-size: 1.6em;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    font-size: 0.9em;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 50px;
+    padding-top: 10px;
+  }
+
+  .sidebar:hover {
+    width: 150px;
+    padding-left: 10px;
+  }
+
+  .sidebar-link {
+    padding: 10px 5px;
+  }
+
+  .sidebar-link .icon {
+    font-size: 1.2rem;
+    width: 50px;
+  }
+
+  .sidebar-link img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search-container {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .search-bar {
+    font-size: 0.8em;
+    padding: 8px 30px 8px 8px;
+  }
+
+  .search-item img {
+    width: 45px;
+    height: 30px;
+  }
+
+  .search-item span {
+    font-size: 0.85em;
+  }
+
+  /* Décalage contenu */
+  main, header, aside, footer {
+    margin-left: 50px;
+  }
+
+  .sidebar:hover ~ main,
+  .sidebar:hover ~ header,
+  .sidebar:hover ~ aside,
+  .sidebar:hover ~ footer {
+    margin-left: 150px;
+  }
+
+  /* Features */
+  .features {
+    margin: 15px 10px 15px 60px;
+    padding: 15px;
+    gap: 1rem;
+  }
+
+  .feature {
+    max-width: 120px;
+  }
+
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .feature p, .feature h3 {
+    font-size: 0.85em;
+  }
+
+  /* Main */
+  main h2 {
+    font-size: 1.4em;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+  article h6 {
+    font-size: 0.85em;
+  }
+
+  /* Jeux carrousel */
+  .games-carousel {
+    padding: 15px 20px;
+  }
+
+  .game-container {
+    width: 200px;
+  }
+
+  .Image {
+    height: 120px;
+  }
+
+  .Titre {
+    font-size: 0.9em;
+  }
+
+  iframe, #game-frame {
+    height: 300px;
+  }
+
+  /* Formulaire */
+  form {
+    padding: 20px 15px;
+    margin: 20px auto;
+    max-width: 95%;
+  }
+
+  form label {
+    font-size: 0.9em;
+  }
+
+  form input, form textarea {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  form button[type="submit"] {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  /* Mentions légales */
+  .mentionsLegales {
+    padding: 20px 15px;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+
+  .mentionsLegales > h1 {
+    font-size: 1.5em;
+  }
+
+  .mentionsLegales article h2 {
+    font-size: 1.1em;
+  }
+
+  .mentionsLegales article p {
+    font-size: 0.9em;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.8em;
+    padding: 1.5rem 0.5rem;
+  }
+}

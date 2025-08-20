@@ -1,0 +1,187 @@
+/* ============================= */
+/*        VERSION TABLET        */
+/* min-width: 426px ; max-width: 768px */
+/* ============================= */
+@media screen and (min-width: 427px) and (max-width: 769px) {
+
+  /* Général */
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* En-tête */
+  header {
+    padding: 20px 0;
+  }
+
+  .top-bar img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .top-bar h1 {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 60px;
+    padding-top: 15px;
+  }
+
+  .sidebar:hover {
+    width: 180px;
+    padding-left: 15px;
+  }
+
+  .sidebar-link {
+    padding: 12px 8px;
+  }
+
+  .sidebar-link .icon {
+    font-size: 1.4rem;
+    width: 60px;
+  }
+
+  .sidebar-link img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .search-container {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    font-size: 0.9em;
+    padding: 10px 35px 10px 10px;
+  }
+
+  .search-item img {
+    width: 50px;
+    height: 35px;
+  }
+
+  .search-item span {
+    font-size: 0.9em;
+  }
+
+  /* Décalage contenu */
+  main, header, aside, footer {
+    margin-left: 60px;
+  }
+
+  .sidebar:hover ~ main,
+  .sidebar:hover ~ header,
+  .sidebar:hover ~ aside,
+  .sidebar:hover ~ footer {
+    margin-left: 180px;
+  }
+
+  /* Features */
+  .features {
+    margin: 20px 15px 20px 70px;
+    padding: 20px;
+    gap: 1.2rem;
+  }
+
+  .feature {
+    max-width: 140px;
+  }
+
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .feature p, .feature h3 {
+    font-size: 0.95em;
+  }
+
+  /* Main */
+  main h2 {
+    font-size: 1.5em;
+  }
+
+  article {
+    padding: 18px;
+  }
+
+  article h6 {
+    font-size: 0.9em;
+  }
+
+  /* Jeux carrousel */
+  .games-carousel {
+    padding: 18px 25px;
+  }
+
+  .game-container {
+    width: 220px;
+  }
+
+  .Image {
+    height: 140px;
+  }
+
+  .Titre {
+    font-size: 1em;
+  }
+
+  iframe, #game-frame {
+    height: 350px;
+  }
+
+  /* Formulaire */
+  form {
+    padding: 25px 20px;
+    margin: 25px auto;
+    max-width: 95%;
+  }
+
+  form label {
+    font-size: 1em;
+  }
+
+  form input, form textarea {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  form button[type="submit"] {
+    padding: 12px;
+    font-size: 1em;
+  }
+
+  /* Mentions légales */
+  .mentionsLegales {
+    padding: 25px 20px;
+    margin: 25px auto;
+    max-width: 100%;
+  }
+
+  .mentionsLegales > h1 {
+    font-size: 1.7em;
+  }
+
+  .mentionsLegales article h2 {
+    font-size: 1.2em;
+  }
+
+  .mentionsLegales article p {
+    font-size: 1em;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.85em;
+    padding: 2rem 1rem;
+  }
+}
