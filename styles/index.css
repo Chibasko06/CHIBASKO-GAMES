@@ -690,3 +690,42 @@ iframe {
     color: #00b3b3;
     border-bottom-color: #00ffcc;
 }
+
+/* Styles mobiles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem; /* titre plus grand */
+    }
+
+    header h2.subtitle {
+        font-size: 1.2rem; /* sous-titre lisible */
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .sidebar {
+        width: 70px; /* un peu plus large par défaut */
+    }
+
+    .sidebar:hover {
+        width: 180px;
+    }
+
+    .sidebar-link .icon {
+        font-size: 2rem; /* emojis plus gros */
+        width: 70px;
+    }
+
+    .sidebar-link .text {
+        font-size: 1.2rem; /* texte plus grand */
+    }
+
+    .search-bar {
+        font-size: 1.1rem;  /* texte de recherche plus gros */
+        padding: 14px 40px 14px 14px; /* champ plus confortable */
+    }
+
+    .search-item span {
+        font-size: 1.1rem;
+    }
+}
