@@ -459,5 +459,15 @@ const games = {
         date_sortie: "12 août 2025",
         technologie: "HTML5 (Unity WebGL)",
         description: "Minecraft Pixel Warfare est un jeu de tir JcJ effréné se déroulant dans des mondes en blocs inspirés de Minecraft. Les joueurs s'affrontent en mode compétitif par équipe (par exemple, Match à mort en équipe, Capture de drapeau) ou en arènes libres, utilisant des armes à feu, des grenades et des armes de mêlée, le tout avec les graphismes pixelisés emblématiques de Minecraft. Débloquez des skins, améliorez vos armes et maîtrisez les cartes pour dominer le classement !"
+    },
+    zombie_batail_pour_la_survie: {
+        title: "Zombies : Bataille pour la survie",
+        url: "https://html5.gamedistribution.com/3c55eade69d64feeadd0c48f705fbe42/?gd_sdk_referrer_url=https://gamedistribution.com/games/zombies:-battle-for-survival/",
+        image: "./images/Zombi_batail pour la survie.jpg",
+        categorie: "Action",
+        developpeur: "JeuPush",
+        date_sortie: "05 juillet 2025",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Survivez à un assaut incessant de zombies ! Chaque vague devient plus difficile, les munitions s'épuisent et l'espoir s'amenuise. Débloquez de nouvelles zones, achetez des armes, améliorez votre équipement et construisez des barricades pour ralentir les morts-vivants. Parviendrez-vous à surmonter ce cauchemar et à établir un nouveau record ?"
     }
 };

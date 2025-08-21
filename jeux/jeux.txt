@@ -176,3 +176,11 @@ street of rage:
 paper fighter 3d:
 
 <iframe src="https://html5.gamemonetize.co/9tlze1e5encxk1ncnvfox4qx1h22f340/" width="800" height="450" scrolling="none" frameborder="0"></iframe>
+
+zombie: batail pour la survie :
+
+<iframe src="https://html5.gamedistribution.com/3c55eade69d64feeadd0c48f705fbe42/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+Pixel warfare :
+
+<iframe src="https://html5.gamedistribution.com/94673205996e4f308045e87794ff6867/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="900" height="600" scrolling="none" frameborder="0"></iframe>
