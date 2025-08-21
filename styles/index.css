@@ -584,6 +584,8 @@ iframe {
 /* faire en sorte que les jeux s'affiche en page et non en ligne'comme dans l'index)*/
 .categorie .games-wrapper{
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .categorie .game-container {

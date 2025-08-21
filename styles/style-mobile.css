@@ -152,6 +152,11 @@
     height: 300px;
   }
 
+  /*secrion detail (game.html)*/
+  .detail {
+    margin-right: 20%;
+  }
+
   /* Formulaire */
   form {
     padding: 20px 15px;
