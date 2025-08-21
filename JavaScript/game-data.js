@@ -449,5 +449,14 @@ const games = {
         date_sortie: "24 octobre 2023",
         technologie: "HTML5 (Unity WebGL)",
         description: "Mini Soccer est un jeu de football sportif et dynamique où vous pouvez défier vos amis ou jouer contre l'IA. Choisissez votre joueur préféré et affrontez l'IA lors du tournoi ou surpassez vos amis en mode versus. Choisissez parmi les meilleures équipes du monde, 3 terrains de jeu et profitez de tout le plaisir d'un jeu d'arcade en un seul jeu."
+    },
+    pixel_warfare: {
+        title: "Pixel Warfare",
+        url: "https://html5.gamedistribution.com/94673205996e4f308045e87794ff6867/?gd_sdk_referrer_url=https://gamedistribution.com/games/minecraft-pixel-warfare/",
+        image: "./images/Pixel-Warfare.jpg",
+        categorie: "Action",
+        developpeur: "Kiz10",
+        date_sortie: "12 août 2025",
+        description: "Minecraft Pixel Warfare est un jeu de tir JcJ effréné se déroulant dans des mondes en blocs inspirés de Minecraft. Les joueurs s'affrontent en mode compétitif par équipe (par exemple, Match à mort en équipe, Capture de drapeau) ou en arènes libres, utilisant des armes à feu, des grenades et des armes de mêlée, le tout avec les graphismes pixelisés emblématiques de Minecraft. Débloquez des skins, améliorez vos armes et maîtrisez les cartes pour dominer le classement !"
     }
 };
