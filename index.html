@@ -12,8 +12,7 @@
         <link rel="icon" href="https://chibaskogames.fr/images/Logo_ChibaskoGames-rond.png" type="image/png">
         <link rel="apple-touch-icon" href="https://chibaskogames.fr/images/Logo_ChibaskoGames-rond.png">
 
-
-        <!--Feuilles de style-->
+        <!--style-->
         <link rel="stylesheet" href="./styles/index.css" />
         <link rel="stylesheet" href="./styles/style-mobile.css">
 
@@ -32,11 +31,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H10SZPPWWX"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-H10SZPPWWX');
+        gtag('config', 'G-H10SZPPWWX');
     </script>
     
     <body>
@@ -98,9 +97,9 @@
         <main>
             <section>
                 <h2>Sélection du jour !</h2>
-                <article class="games-carousel weekly">
+                <article class="games-carousel daily">
                 <button class="carousel-btn left">&#8249;</button>
-                    <div class="games-wrapper weekly">
+                    <div class="games-wrapper daily">
                         
                     </div>
                     <button class="carousel-btn right">&#8250;</button>
@@ -458,7 +457,7 @@
         </footer>
         <script src="./JavaScript/game-data.js"></script>
         <script src="./JavaScript/index.js"></script>
-        <script src="./JavaScript/weekly.js"></script>
+        <script src="./JavaScript/daily.js"></script>
         <script src="./JavaScript/search-bar.js"></script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-/* weekly.js : Sélection quotidienne des jeux avec affichage carousel et scroll automatique */
+/* daily.js : Sélection quotidienne des jeux avec affichage carousel et scroll automatique */
 
 /*----------------------------------------------
   Fonction pour mélanger un tableau de manière aléatoire
@@ -11,7 +11,7 @@ function shuffleArray(array) {
   Fonction pour sélectionner les jeux de la semaine
   en respectant les catégories et en ajoutant des jeux bonus
 -----------------------------------------------*/
-function selectWeeklyGames(games) {
+function selectDailyGames(games) {
     const categories = { Action: [], Aventure: [], Classique: [] };
     
     // Classer les jeux par catégorie
@@ -42,9 +42,9 @@ function selectWeeklyGames(games) {
   Fonction pour récupérer la sélection quotidienne
   La sélection change une seule fois par jour
 -----------------------------------------------*/
-function getDailyWeeklyGames() {
+function getDailyGames() {
     const today = new Date().toISOString().slice(0, 10); // Format "YYYY-MM-DD"
-    const saved = JSON.parse(localStorage.getItem('weeklyGames') || '{}');
+    const saved = JSON.parse(localStorage.getItem('dailyGames') || '{}');
 
     // Si une sélection existe pour aujourd'hui, on la réutilise
     if (saved.date === today && saved.games) {
@@ -52,24 +52,24 @@ function getDailyWeeklyGames() {
     }
 
     // Sinon, on génère une nouvelle sélection et on la sauvegarde
-    const weeklyGames = selectWeeklyGames(games);
-    localStorage.setItem('weeklyGames', JSON.stringify({ date: today, games: weeklyGames }));
-    return weeklyGames;
+    const dailyGames = selectDailyGames(games);
+    localStorage.setItem('dailyGames', JSON.stringify({ date: today, games: dailyGames }));
+    return dailyGames;
 }
 
 /*----------------------------------------------
   Fonction pour afficher les jeux dans le carousel
 -----------------------------------------------*/
-function displayWeeklyGames() {
-    const carouselWrapper = document.querySelector('.games-wrapper.weekly');
+function displayDailyGames() {
+    const carouselWrapper = document.querySelector('.games-wrapper.daily');
     if (!carouselWrapper) return;
 
-    const weeklyGames = getDailyWeeklyGames(); // sélection quotidienne
+    const dailyGames = getDailyGames(); // sélection quotidienne
 
     // Vider le carousel avant ajout
     carouselWrapper.innerHTML = '';
 
-    weeklyGames.forEach(game => {
+    dailyGames.forEach(game => {
         // Conteneur global du jeu
         const gameContainer = document.createElement('div');
         gameContainer.classList.add('game-container');
@@ -105,7 +105,7 @@ function displayWeeklyGames() {
 /*----------------------------------------------
   Scroll automatique du carousel toutes les 10s
 -----------------------------------------------*/
-document.querySelectorAll('.games-wrapper.weekly').forEach(wrapper => {
+document.querySelectorAll('.games-wrapper.daily').forEach(wrapper => {
     setInterval(() => {
         const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
 
@@ -122,4 +122,4 @@ document.querySelectorAll('.games-wrapper.weekly').forEach(wrapper => {
 /*----------------------------------------------
   Initialisation : afficher les jeux
 -----------------------------------------------*/
-displayWeeklyGames();
+displayDailyGames();
