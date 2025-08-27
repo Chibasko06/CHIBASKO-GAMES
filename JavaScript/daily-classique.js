@@ -83,7 +83,7 @@ if (wrapperClassique) {
         if (wrapperClassique.scrollLeft >= maxScrollLeft) {
             wrapperClassique.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-            wrapperClassique.scrollBy({ left: 1000, behavior: 'smooth' });
+            wrapperClassique.scrollBy({ left: 700, behavior: 'smooth' });
         }
     }, 10000);
 }

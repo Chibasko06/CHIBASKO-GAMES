@@ -83,7 +83,7 @@ if (wrapperAventure) {
         if (wrapperAventure.scrollLeft >= maxScrollLeft) {
             wrapperAventure.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-            wrapperAventure.scrollBy({ left: 1000, behavior: 'smooth' });
+            wrapperAventure.scrollBy({ left: 700, behavior: 'smooth' });
         }
     }, 10000);
 }

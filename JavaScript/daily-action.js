@@ -83,7 +83,7 @@ if (wrapperAction) {
         if (wrapperAction.scrollLeft >= maxScrollLeft) {
             wrapperAction.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-            wrapperAction.scrollBy({ left: 1000, behavior: 'smooth' });
+            wrapperAction.scrollBy({ left: 700, behavior: 'smooth' });
         }
     }, 10000);
 }
