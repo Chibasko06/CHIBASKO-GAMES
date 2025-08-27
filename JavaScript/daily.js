@@ -35,7 +35,7 @@ function selectDailyGames(games) {
     const remaining = allGames.filter(g => !selectedGames.find(sg => sg.id === g.id));
     selectedGames.push(...shuffleArray(remaining).slice(0, 5));
 
-    return selectedGames;
+    return shuffleArray(selectedGames);
 }
 
 /*----------------------------------------------
