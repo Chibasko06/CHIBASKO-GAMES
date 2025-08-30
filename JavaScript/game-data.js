@@ -7,6 +7,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Newgamess",
         date_sortie: "2 octobre 2019",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Jeu Pacman classique où vous devez manger des points et éviter vos ennemis. En mangeant de gros points, vous pouvez manger vos ennemis et ainsi passer le niveau. Mais attention aux nouveaux ennemis !"
     },
@@ -17,6 +18,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Smartberry",
         date_sortie: "25 mai 2024",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Échecs avec un ordinateur : - Moteur puissant - 18 niveaux de difficulté du débutant au champion du monde - Affichage des coups possibles lors du choix d'une pièce - Conseils interactifs pour mieux jouer pendant la partie - Annuler le coup, s'il y a eu un bâillement, vous pouvez revenir en arrière - L'analyse après la partie met en évidence les erreurs et montre comment vous auriez pu mieux jouer - La possibilité de rejouer la partie depuis le bon endroit - Sélection du handicap Échecs en ligne : - De vrais joueurs en direct - Sauvegarde du classement - Analyse après la partie,"
     },
@@ -27,6 +29,7 @@ const games = {
         categorie: "Action",
         developpeur: "Raccon",
         date_sortie: "11 juin 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Embarquez pour une aventure palpitante au tour par tour en pixel art ! Affrontez des ennemis redoutables, faites progresser vos héros et maîtrisez les combats stratégiques. Améliorez votre esquive, votre défense et votre attaque pour survivre face à des adversaires plus puissants. Parviendrez-vous à vaincre les vagues infinies et à devenir le héros ultime ?"
     },
@@ -37,6 +40,7 @@ const games = {
         categorie: "Classique",
         developpeur: "LofGames.com",
         date_sortie: "21 janvier 2022",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Glissez-déposez les blocs de gauche à droite ou de droite à gauche pour remplir une rangée complète de blocs et les éliminer. Collectez plusieurs rangées à la fois pour augmenter votre score."
     },
@@ -47,6 +51,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Gamewelt",
         date_sortie: "15 juillet 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Le jeu d'aventure Super Sprunki - Jungle Adventure - Classic Run Game vous offre un retour en enfance. Le monde de Bobby est désert depuis que la princesse a été kidnappée dans la jungle. Mais l'aventure commence ! Votre mission : aider Bobby à traverser la jungle mystérieuse, à sauter par-dessus les obstacles et à sauver la belle princesse à la destination finale de l'aventure grâce à des monstres super maléfiques. Ce jeu est gratuit et vous pouvez jouer à Bob hors ligne ! [Caractéristiques] : + Plus de 240 niveaux + Combats de boss stimulants + Superbes graphismes haute résolution, dans un style moderne mêlé d'une touche classique + Fluidité"
     },
@@ -57,6 +62,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Airem",
         date_sortie: "1 février 2023",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Une étrange créature doit atteindre le sommet sans tomber. Essayez d'aller le plus loin possible et faites attention aux pièges. Profitez des sons et des graphismes d'ambiance"
     },
@@ -67,6 +73,7 @@ const games = {
         categorie: "Action",
         developpeur: "Tgames",
         date_sortie: "27 juin 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Armé d'un blaster tirant des projectiles colorés, vous devez tenir bon face à une horde implacable dans Stop Zombies. Chaque créature morte-vivante ne peut être éliminée qu'avec une balle de sa couleur ; la vivacité d'esprit et des réflexes aiguisés sont donc votre meilleure défense. Face à la horde grandissante, votre survie dépend de votre vigilance et de votre intelligence pour empêcher"
     },
@@ -77,6 +84,7 @@ const games = {
         categorie: "Action",
         developpeur: "Hexapp",
         date_sortie: "11 décembre 2023",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Duel of Builders est un jeu de duel génial. Combattez avec un ami ou contre l'ordinateur ! Prêt pour ce duel amusant ? Joueur 1 W, A, S, D : Mouvement R : Changer d'arme Espace : Attaquer Joueur 2 Touches fléchées : Mouvement O : Changer d'arme P : Attaquer"
     },
@@ -87,6 +95,7 @@ const games = {
         categorie: "Action",
         developpeur: "Chif",
         date_sortie: "30 juin 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie:"HTML5 (Unity WebGL)",
         description: "Le motocross tout-terrain est un monde palpitant de vitesse et d'adrénaline. Pilotez des circuits dangereux, surmontez les obstacles et améliorez vos véhicules pour devenir le roi de la route. Pilotez une moto puissante, réalisez des cascades et améliorez vos compétences dans ce jeu de course captivant. Ressentez la vitesse et la liberté dans ce jeu addictif."
     },
@@ -97,6 +106,7 @@ const games = {
         categorie: "Action",
         developpeur: "FPDA",
         date_sortie: "01 juillet 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Plongez dans un jeu d'arcade explosif et bourré d'action où chaque tir est un combat pour la survie ! Affrontez des hordes de zombies implacables grâce à un large arsenal d'armes et améliorez-les pour une puissance de feu maximale. Découvrez de nouvelles tactiques et explorez des zones dangereuses grouillant d'infectés. Avec des graphismes éclatants, un gameplay palpitant et une action ininterrompue, vous ne vous ennuierez jamais. Êtes-vous prêt à relever le défi ?"
     },
@@ -107,6 +117,7 @@ const games = {
         categorie: "Action",
         developpeur: "Kiz10",
         date_sortie: "15 janvier 2020",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "C'est l'heure du combat dans KZ10 ! Choisissez votre stickman préféré et réalisez des combos incroyables pour terrasser vos adversaires ! Encore plus impressionnant : soyez celui qui, au milieu, met la pression à tout le monde. Dans Stickman Ultimate StreetFighter 3D, un jeu de combat à réaction incroyable, vous devez agir très vite pour donner coups de poing et coups de pied au timing parfait et éviter de vous faire tabasser par des centaines d'ennemis. Terminez 100 niveaux pour débloquer le mode sans fin. Différents types d'ennemis et plus de 20 armes sont disponibles."
     },
@@ -117,6 +128,7 @@ const games = {
         categorie: "Action",
         developpeur: "Kiz10",
         date_sortie: "12 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Découvrez l'univers de l'un de vos jeux de combat préférés, avec Stickman comme héros principal ! Une physique avancée et des graphismes immersifs propulsent cette expérience vers un tout autre niveau !"
     },
@@ -127,6 +139,7 @@ const games = {
         categorie: "Action",
         developpeur: "Kiz10",
         date_sortie: "07 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Hautement entraînés, ces jeux mettent à l'honneur les tireurs d'élite à la visée la plus meurtrière. Dans ces jeux de sniper, l'objectif est d'éviter d'être détecté et d'utiliser votre entraînement spécialisé pour infiltrer, observer et éliminer les troupes ennemies à longue distance avant même qu'elles ne vous repèrent."
     },
@@ -137,6 +150,7 @@ const games = {
         categorie: "Action",
         developpeur: "BreymanGames",
         date_sortie: "2 juillet 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Plongez au cœur d'un champ de bataille déchiré par la guerre dans COD Duty Call FPS, un jeu de tir à la première personne effréné qui plonge les joueurs au cœur d'une guerre moderne. Dans un futur proche, vous incarnez un agent d'élite des forces spéciales déployé dans des régions instables, des zones de guerre urbaines et des installations ennemies secrètes, dans une campagne explosive et immersive. COD Duty Call FPS offre une expérience riche en adrénaline où vos réflexes, votre tactique et votre précision détermineront votre survie. Le jeu propose une campagne solo captivante qui suit une mission aux enjeux élevés pour empêcher une catastrophe mondiale."
     },
@@ -147,6 +161,7 @@ const games = {
         categorie: "Action",
         developpeur: "Lich.Games",
         date_sortie: "19 février 2024",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Bienvenue sur ArmedForces.io, où action et adrénaline, tirs intenses et aventures palpitantes vous attendent ! Lancez-vous dans une mission pour localiser et éliminer les ennemis disséminés sur la carte. Chaque recoin recèle des menaces potentielles. Restez vigilant et utilisez un mélange de furtivité, de prouesses de chasseur et de précision pour déjouer vos adversaires."
     },
@@ -157,6 +172,7 @@ const games = {
         categorie: "Action",
         developpeur: "R1Games.com",
         date_sortie: "2 août 2023",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Freehead Skate est un jeu d'arcade rapide qui met les joueurs au défi de sauter par-dessus des obstacles en utilisant uniquement la tête de leur personnage. Grâce à des commandes simples et un gameplay addictif, les joueurs doivent synchroniser leurs sauts avec la tête à la perfection pour venir à bout de niveaux de plus en plus difficiles et atteindre des scores élevés."
     },
@@ -167,6 +183,7 @@ const games = {
         categorie: "Action",
         developpeur: "R1Games.com",
         date_sortie: "19 juillet 2023",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Dunk Slash est un jeu de basket-ball captivant où les joueurs doivent couper des fils stratégiquement pour diriger le ballon vers le but. Avec des coupes limitées et des agencements de fils complexes, votre précision et votre intelligence seront mises à rude épreuve !"
     },
@@ -177,6 +194,7 @@ const games = {
         categorie: "Action",
         developpeur: "Farkhutdinov",
         date_sortie: "05 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Iron Legion Plongez dans des batailles de chars épiques et modernes ! Iron Legion est un jeu d'action en ligne palpitant où vous incarnez le commandant d'un formidable véhicule de combat. Caractéristiques du jeu : * Plus de 10 modèles de chars classiques légendaires * Cartes uniques avec un terrain détaillé * Système de développement et d'amélioration des véhicules avec des mécanismes de dégâts réalistes * Batailles en équipe jusqu'à 20 joueurs en temps réel."
     },
@@ -187,6 +205,7 @@ const games = {
         categorie: "Action",
         developpeur: "Bestgames.com",
         date_sortie: "18 avril 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Les rues sont perturbées et les forces du mal sont à l'œuvre. Découvrez Streets Of Rage, un jeu de combat de rue aux allures d'arcade. Choisissez entre Coup de pied tourbillonnant, ATK VITESSE augmentée, Explosion de feu et bien plus encore pour commencer votre combat. Affrontez des vagues d'ennemis, lancez de puissants combos et devenez le guerrier ultime"
     },
@@ -197,6 +216,7 @@ const games = {
         categorie: "Action",
         developpeur: "RHM Interactive OU",
         date_sortie: "16 août 2022",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Dans un environnement rétro créé à partir de couches de papier, les maîtres d'arts martiaux sont prêts à démontrer leur talent. Paper Fighter 3D propose des combats courts à 1 ou 2 joueurs. Chaque combat se déroule en 3 rounds et celui qui en remporte 2 remporte le match. Utilisez vos coups de poing et de pied au bon moment our terraser votre adversaire !"
     },
@@ -207,6 +227,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "breyman games",
         date_sortie: "02 avril 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Truck Simulator Arcade Championship est un jeu de course de camions exaltant qui allie l'intensité d'une compétition à grande vitesse à la précision de la conduite de camions massifs et puissants. Ce jeu offre une expérience arcade pleine d'action où les joueurs prennent le contrôle de différents types de camions et s'affrontent dans des courses exigeantes sur des circuits et des terrains variés. Avec son gameplay frénétique, ses environnements dynamiques et ses rivalités acharnées, Truck Simulator Arcade Championship est le test ultime de tous les passionés de truck !"
     },
@@ -217,6 +238,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Tgames",
         date_sortie: "26 juin 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Dans cette aventure pleine d'énigmes, vous guidez un garçon à travers des niveaux complexes, remplis de pièges mortels et de défis ingénieux. Face au danger, Spirit Boy se transforme en âme fantomatique, lui permettant de flotter au-delà des pics et d'atteindre des zones cachées. Mais pour terminer le niveau, il doit reprendre sa forme humaine et trouver la porte de sortie tout en protégeant ses trois précieuses vies."
     },
@@ -227,6 +249,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Tgames",
         date_sortie: "03 décembre 2024",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Préparez-vous à vivre l'aventure ultime avec Level Demon ! Plongez dans un monde rempli de niveaux palpitants, d'énigmes hallucinantes et de défis incessants qui mettront vos compétences à rude épreuve."
     },
@@ -237,6 +260,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Bestgames.com",
         date_sortie: "4 juillet 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Vivez le chaos, les rires et l'action dans Run Guys: Knockout Royale. Un jeu de course royale multijoueur. En mode bascule, franchissez les bascules les unes après les autres, gardez l'équilibre et foncez vers la ligne d'arrivée. Foncez à toute vitesse à travers des colonnes de bois tournoyantes, des sols et des obstacles pièges. Chaque niveau éliminera les joueurs les plus lents. En mode escalade, soyez le premier à atteindre le sommet et à sauter sur la couronne."
     },
@@ -247,6 +271,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Kbvpneofit",
         date_sortie: "04 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Draw Deadly Descent est un jeu combinant deux éléments. Il s'agit d'une partie puzzle où vous devez d'abord dessiner une route ou un pont. La deuxième partie, où vous contrôlez déjà la voiture, comme dans Hill Climb Racing, c'est-à-dire grâce aux effets physiques. Le jeu comporte 42 niveaux. Si vous rencontrez un niveau difficile, vous pouvez le passer en regardant une publicité ! Le jeu propose également 7 variantes de coloriage de voiture."
     },
@@ -257,6 +282,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Kbvpneofit",
         date_sortie: "16 février 2021",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Voici un jeu de plateforme et de réflexion stimulant où vous devez terminer un niveau. Pour cela, vous devez effectuer chaque étape correctement, car les blocs que vous passez deviennent solides ! Terminez tous les niveaux et prouvez que vous êtes un génie !"
     },
@@ -267,6 +293,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Zorlex",
         date_sortie: "17 juillet 2O25",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "En tant que petit canard courageux, vous vous lancez dans une aventure palpitante à travers des paysages périlleux. Votre objectif ultime est de récupérer une clé cruciale qui ouvrira la voie, tout en évitant les piques acérées qui menacent de vous interrompre à chaque tournant. Clé en main et chemin dégagé, vous pourrez enfin atteindre le niveau suivant, où de nouveaux obstacles et surprises vous attendent. Parviendrez-vous à surmonter les dangers et à remporter la victoire ?"
     },
@@ -277,6 +304,7 @@ const games = {
         categorie: "Classique",
         developpeur: "John Games",
         date_sortie: "05 août 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Lazzy Birds est un jeu de réflexion amusant et basé sur la physique. Vous lancez des oiseaux à l'aide d'une fronde pour détruire vos ennemis. Votre mission est de vaincre tous les ennemis de chaque niveau en utilisant des oiseaux spéciaux et des courts-métrages limités. Oiseaux : 1 Bleu : un oiseau simple. 2 Noir : un bombardier. 3 Vert : un oiseau rapide. 4 Rouge : un oiseau lourd."
     },
@@ -287,6 +315,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Bravestars Games",
         date_sortie: "04 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Icône image Single Line: Drawing Puzzle À propos de ce jeu Défiez votre esprit et libérez votre créativité avec Single Line: Drawing Puzzle ! Ce jeu passionnant est parfait pour tous ceux qui aiment les casse-têtes et aiment résoudre des énigmes intelligentes. Votre mission est simple mais addictive : tracez une ligne continue pour compléter des motifs complexes sans lever le doigt ni revenir sur vos pas. Êtes-vous prêt à relever le défi ?"
     },
@@ -297,6 +326,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Jssgames",
         date_sortie: "06 décembre 2022",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Les dames (également appelées dames ou damas dans d'autres langues) sont un jeu ancien et bien connu qui est toujours populaire aujourd'hui grâce à ses règles simples et son gameplay addictif, qui implique des stratégies sophistiquées et de nombreuses variantes."
     },
@@ -307,6 +337,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Hexapp",
         date_sortie: "07 novembre 2023",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Commencez à surmonter les obstacles avec votre personnage One Bit dans le jeu One Bit ! N'oubliez pas d'obtenir un point de contrôle et de remporter la partie en surmontant les obstacles !"
     },
@@ -317,6 +348,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "CB Games",
         date_sortie: "28 novembre 2024",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Plongez dans un monde terrifiant et terrifiant avec Horror Eyes Escape, une aventure horrifique à vous glacer le sang où le passé refuse de rester enfoui. Explorez deux lieux hantés – une morgue désolée et une école obscure – chacun rempli d'horreurs indicibles. Rencontrez l'esprit agité d'une morte vengeresse et échappez aux griffes d'ennemis cannibales sauvages tapis dans l'ombre. À chaque tournant, un nouveau cauchemar vous attend. Résolvez des énigmes sinistres et dévoilez de sombres secrets."
     },
@@ -327,6 +359,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Igroutka",
         date_sortie: "26 août 2019",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Il faut d'abord trouver un moyen de sortir de la pièce. Il devrait y avoir une clé quelque part. Regardez attentivement autour de vous, fouillez les meubles et examinez le contenu des tiroirs. Vous devrez le faire assez souvent, alors commencez à vous y habituer dès maintenant. Il y a de nombreuses pièces de ce type dans la maison, et chacune contient le nécessaire pour s'échapper. Ce n'est qu'en rassemblant tous les objets nécessaires que vous pourrez désactiver l'alarme et déverrouiller la porte d'entrée."
     },
@@ -337,6 +370,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Igroutka",
         date_sortie: "09 janvier 2020",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Êtes-vous un fan inconditionnel du jeu en équipe et du jeu de feu et de glace ? Tombez amoureux du labyrinthe d'aventures et souvenez-vous de votre enfance ? Ce jeu est fait pour vous : un garçon rouge et une fille bleue dans la sombre forêt labyrinthique. Le garçon rouge (le garçon de feu) et son amante (la fille de l'eau bleue) qui l'accompagne sont un jeu d'aventure et de réflexion à deux joueurs."
     },
@@ -347,6 +381,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "SoulHouse",
         date_sortie: "31 décembre 2024",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Le jeu de parkour Tall Boss Run est amusant ! Pour vaincre les robots et terminer les niveaux, faites en sorte que votre grand bonhomme soit aussi grand et large que possible. Guidez-le à travers les bonnes portes pour qu'il grandisse et grandisse. Attention aux obstacles : s'ils sont heurtés, votre grand bonhomme s'effondrera. C'est le meilleur jeu de parkour de tous les temps ! Amusez-vous bien !"
     },
@@ -357,6 +392,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Breyman Games",
         date_sortie: "21 juillet 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Revivez l'ère légendaire du jeu mobile avec Snake Nokia Classic, un hommage fidèle au jeu emblématique qui a marqué des générations. Guidez votre serpent pixelisé à travers une grille verte lumineuse, mangez la nourriture pour grandir et évitez les collisions. Simple, rapide et addictif, comme l'original."
     },
@@ -367,6 +403,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Breyman Games",
         date_sortie: "01 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Geometry Waves est un jeu de réflexes effréné où la précision est primordiale. Maintenez la souris enfoncée pour faire monter votre flèche, relâchez-la pour la faire descendre. Naviguez à travers un labyrinthe éclairé au néon, peuplé de pièges mouvants et d'une géométrie trompeuse. Chacun des 30 niveaux, conçus à la main, introduit une nouvelle mécanique d'obstacles : des ninjas disparaissant par intermittence, des barrières cachées qui n'apparaissent que lorsque vous êtes proche, et des défis imprévisibles conçus pour tester votre timing et votre concentration."
     },
@@ -377,6 +414,7 @@ const games = {
         categorie: "Classique",
         developpeur: "DRA",
         date_sortie:"06 décembre 2019",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Conquérez de nouveaux territoires et terrassez vos ennemis dans le nouveau jeu palpitant Paper.io 2. Chaque joueur commence avec une petite île. Agrandissez-la en y ajoutant de nouvelles zones, mais attention aux ennemis. Vous êtes en sécurité sur votre territoire, mais une fois à l'extérieur, vous devenez vulnérable. Protégez votre arrière-garde et n'hésitez pas à contre-attaquer !"
     },
@@ -387,6 +425,7 @@ const games = {
         categorie: "Aventure",
         developpeur: "Ultre Games Entrainment Private Limited",
         date_sortie: "07 août 2025",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Les survivants d'un crash aérien se retrouvent dans un monde mystérieux. Entre artisanat, exploitation minière et résolution d'énigmes, le pilote travaille sans relâche pour sauver les passagers bloqués sur des îles isolées au milieu des herbes folles. Parviendront-ils à surmonter les défis, à se réunir et à échapper à ce royaume énigmatique avant que les dangers inconnus qui guettent la nature sauvage ne les engloutissent tous ? Embarquez pour une aventure palpitante après qu'un accident d'avion vous a bloqué dans un monde mystérieux et sauvage. En tant que pilote, vous devez récupérer des ressources dans les débris, fabriquer des outils et naviguer à travers les herbes folles pour secourir les passagers dispersés sur de petites îles."
     },
@@ -397,6 +436,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Playgames",
         date_sortie: "05 décembre 2022",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Impossible de rêver d'une meilleure application pour se détendre en famille et tester sa SAGACITÉ ! Ce jeu ravira les fans de solitaire, les passionnés de jeux de cartes et les joueurs occasionnels !"
     },
@@ -407,6 +447,7 @@ const games = {
         categorie: "Classique",
         developpeur: "6woo.com",
         date_sortie: "12 juin 2020",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Snake.io - Jeux de combat arcade addictifs et amusants. Glissez-vous dans une nouvelle version compétitive de Snake et survivez aussi longtemps que possible ! Défiez vos amis et essayez de devenir le plus gros ver de Snake.io !"
     },
@@ -417,6 +458,7 @@ const games = {
         categorie: "Classique",
         developpeur: "CB Games",
         date_sortie: "08 octobre 2021",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Bienvenue dans Among Us Online v3. Jouez en solo ou en tant qu'imposteur à bord du vaisseau spatial. Vous pouvez saboter le vaisseau ou éliminer les ennemis un par un sans vous faire prendre. Personnalisez votre personnage et les paramètres de jeu. Bon jeu !"
     },
@@ -427,6 +469,7 @@ const games = {
         categorie: "Classique",
         developpeur: "CB Games",
         date_sortie: "30 décembre 2024",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Super Mario Memory Card Match est un jeu de cartes captivant qui vous emmène dans une aventure haute en couleur, pleine de fun et de défis ! Plongez dans l'univers de Mario, un héros courageux et joyeux, et testez votre mémoire et vos réflexes pour associer des cartes identiques avant la fin du temps imparti. Avec des graphismes éclatants, une musique entraînante et des niveaux de difficulté progressifs, ce jeu divertira petits et grands. Retournez les cartes pour découvrir des images d'objets, de personnages et de scènes emblématiques inspirés des jeux de plateforme classiques Super Mario."
     },
@@ -437,6 +480,7 @@ const games = {
         categorie: "Classique",
         developpeur: "FPDA",
         date_sortie: "09 juillet 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Préparez-vous pour des courses nocturnes palpitantes dans une ville pleine d'adrénaline ! Dans ce jeu, devenez un véritable pilote de rue. Montez au volant d'une puissante voiture de sport et parcourez les rues de la ville nocturne où des défis palpitants vous attendent. Accomplissez diverses missions et réalisez des figures pour démontrer vos talents de pilote, en évitant la police et en la laissant loin derrière vous. Au fil du jeu, vous aurez l'occasion d'acheter de nouvelles voitures, plus puissantes et plus rapides. Devenez le roi des courses de rue !"
     },
@@ -447,6 +491,7 @@ const games = {
         categorie: "Classique",
         developpeur: "Onduck Games",
         date_sortie: "24 octobre 2023",
+        mobile_compatible: "Oui (Navigateurs mobiles)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Mini Soccer est un jeu de football sportif et dynamique où vous pouvez défier vos amis ou jouer contre l'IA. Choisissez votre joueur préféré et affrontez l'IA lors du tournoi ou surpassez vos amis en mode versus. Choisissez parmi les meilleures équipes du monde, 3 terrains de jeu et profitez de tout le plaisir d'un jeu d'arcade en un seul jeu."
     },
@@ -457,6 +502,7 @@ const games = {
         categorie: "Action",
         developpeur: "Kiz10",
         date_sortie: "12 août 2025",
+        mobile_compatible: "Oui (IOS et Android)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Minecraft Pixel Warfare est un jeu de tir JcJ effréné se déroulant dans des mondes en blocs inspirés de Minecraft. Les joueurs s'affrontent en mode compétitif par équipe (par exemple, Match à mort en équipe, Capture de drapeau) ou en arènes libres, utilisant des armes à feu, des grenades et des armes de mêlée, le tout avec les graphismes pixelisés emblématiques de Minecraft. Débloquez des skins, améliorez vos armes et maîtrisez les cartes pour dominer le classement !"
     },
@@ -465,9 +511,44 @@ const games = {
         url: "https://html5.gamedistribution.com/3c55eade69d64feeadd0c48f705fbe42/?gd_sdk_referrer_url=https://gamedistribution.com/games/zombies:-battle-for-survival/",
         image: "./images/Zombi_batail pour la survie.jpg",
         categorie: "Action",
-        developpeur: "JeuPush",
+        developpeur: "GamePush",
         date_sortie: "05 juillet 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Survivez à un assaut incessant de zombies ! Chaque vague devient plus difficile, les munitions s'épuisent et l'espoir s'amenuise. Débloquez de nouvelles zones, achetez des armes, améliorez votre équipement et construisez des barricades pour ralentir les morts-vivants. Parviendrez-vous à surmonter ce cauchemar et à établir un nouveau record ?"
+    },
+    sort_my_parking_area: {
+        title: "Sort: My Parking Area",
+        url: "https://html5.gamedistribution.com/4ff5b5355c42484da4fc9e90a970cbe8/?gd_sdk_referrer_url=https://gamedistribution.com/games/sort:-my-parking-area/",
+        image: "./images/Sort-My Parking Area.jpg",
+        categorie: "Classique",
+        developpeur: "GamePush",
+        date_sortie: "23 mars 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Il est temps de quitter le parking, mais d'autres voitures vous bloquent la route ! Déplacez-les dans le bon ordre pour dégager la voie ! Places de parking étroites, obstacles redoutables et défis inattendus vous attendent dans ce jeu captivant et captivant."
+    },
+    mr_reckless: {
+        title: "Mr Reckless: Car Chase Simulator",
+        url: "https://html5.gamedistribution.com/7a0006022c6744788c0134eea8ee4018/?gd_sdk_referrer_url=https://gamedistribution.com/games/mr-reckless:-car-chase-simulator/",
+        image: "./images/Mr Reckless.jpg",
+        categorie: "Aventure",
+        developpeur: "BeruGames",
+        date_sortie: "24 août 2025",
+        mobile_compatible: "Non (Optimisé PC uniquement)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Courez vite, foncez et trompez la mort avec style. Foncez à travers une ville chaotique et low-poly en évitant la police, la circulation et la destruction totale. Utilisez des bonus révolutionnaires comme Ralenti, Gel et Nitro pour échapper à l'impossible. Une seule règle : ne vous arrêtez jamais. Combien de temps pourrez-vous rester libre ?"
+    },
+    street_traffic_racer: {
+        title: "Street Traffic Racer",
+        url: "https://html5.gamedistribution.com/b4d7df30b6354d92aad8ac6b6162dc74/?gd_sdk_referrer_url=https://gamedistribution.com/games/street-traffic-racer/",
+        image: "./images/Street traffic racer.jpg",
+        categorie: "Classique",
+        developpeur: "Fuego! Games",
+        date_sortie: "20 août 2025",
+        mobile_compatible: "Oui (Ios et Android)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Faites déraper les roues de 6 superbes voitures de rue équipées de carrosseries modifiées et pilotez-les sur 3 autoroutes sans accident. Montrez votre talent de pilote avec ces bolides aux moteurs rugissants et dominez 3 modes de jeu exceptionnels. Utilisez la nitro pour dépasser les voitures lentes et roulez à toute vitesse. Personnalisez et améliorez vos voitures avec les meilleures améliorations et tirez le meilleur parti de chaque véhicule. Prêt à démontrer vos talents de pilote ? Faites vos preuves dans Street Traffic Racer."
+
     }
 };

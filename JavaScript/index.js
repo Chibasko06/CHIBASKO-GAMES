@@ -63,6 +63,7 @@ document.querySelectorAll('.Image').forEach(container => {
             document.getElementById("game-frame").src = games[gameId].url;
             document.getElementById("game-developpeur").textContent = games[gameId].developpeur;
             document.getElementById("game-date_sortie").textContent = games[gameId].date_sortie;
+            document.getElementById("game-mobile_compatible").textContent =games[gameId].mobile_compatible;
             document.getElementById("game-technologie").textContent = games[gameId].technologie;
             document.getElementById("game-description").textContent = games[gameId].description;
         } else {
