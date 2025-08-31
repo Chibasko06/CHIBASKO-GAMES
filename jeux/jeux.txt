@@ -131,6 +131,10 @@ Street Traffic Racer:
 
 <iframe src="https://html5.gamedistribution.com/b4d7df30b6354d92aad8ac6b6162dc74/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+hole.io:
+
+<iframe src="https://html5.gamedistribution.com/cf2876b01bc24b94aa884f2ae0c9413a/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :

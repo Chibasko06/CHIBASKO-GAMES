@@ -549,6 +549,16 @@ const games = {
         mobile_compatible: "Oui (Ios et Android)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Faites déraper les roues de 6 superbes voitures de rue équipées de carrosseries modifiées et pilotez-les sur 3 autoroutes sans accident. Montrez votre talent de pilote avec ces bolides aux moteurs rugissants et dominez 3 modes de jeu exceptionnels. Utilisez la nitro pour dépasser les voitures lentes et roulez à toute vitesse. Personnalisez et améliorez vos voitures avec les meilleures améliorations et tirez le meilleur parti de chaque véhicule. Prêt à démontrer vos talents de pilote ? Faites vos preuves dans Street Traffic Racer."
-
+    },
+    earthquake_io: {
+        title: "Earthquake.io",
+        url: "https://html5.gamedistribution.com/cf2876b01bc24b94aa884f2ae0c9413a/?gd_sdk_referrer_url=https://gamedistribution.com/games/earthquake-io/",
+        image: "./images/Earthquake io.jpg",
+        categorie: "Classique",
+        developpeur: "Mirra Games",
+        date_sortie: "18 novembre 2024",
+        mobile_compatible: "Oui (Android)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Earthquake io est un simulateur de catastrophe réaliste basé sur la physique en 3D dans lequel vous prenez le contrôle des forces de la Terre pour détruire des villes, détruire des bâtiments et écraser tous les petits objets pour rivaliser avec d'autres joueurs dans une bataille féroce."
     }
 };
