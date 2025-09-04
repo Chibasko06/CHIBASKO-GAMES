@@ -563,7 +563,7 @@ iframe {
 
 .detail-container {
     display: flex;
-    gap: 20px; /* espace entre la description et la pub */
+    gap: 10px; /* espace entre la description et la pub */
     flex-wrap: wrap; /* pour mobile */
 }
 
@@ -665,15 +665,33 @@ iframe {
 }
 
 /* mentions legales*/
+.mentionsLegales-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* espace entre colonnes */
+    margin: 20px;
+}
+
+.pub-verticale {
+    flex-shrink: 0;
+    max-width: 200px; /* pour éviter qu’elles deviennent trop larges */
+}
+.adsbygoogle {
+    width: 100% !important; /* pour que la pub occupe toute la largeur dispo */
+}
+
+
 /* Section principale */
 .mentionsLegales {
-    max-width: 900px;
-    margin: 40px auto;
+    flex: 1; /* occupe l’espace restant */
+    max-width: 800px; /* un peu plus large pour respirer */
     padding: 30px;
     background: #1a1a1a;
     border-radius: 15px;
     box-shadow: 0 0 25px rgba(0, 255, 204, 0.08);
 }
+
 
 /* Titre principal */
 .mentionsLegales > h1 {
