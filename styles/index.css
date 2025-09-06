@@ -312,6 +312,12 @@ article h6 {
     font-size: 1em;
 }
 
+/* pub bloc footer*/
+.footer_index {
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #1a1a1a;
