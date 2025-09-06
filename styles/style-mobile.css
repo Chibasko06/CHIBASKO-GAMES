@@ -28,74 +28,57 @@
     font-size: 0.9em;
   }
 
-  /* Sidebar */
+  /* Sidebar fermée par défaut sur mobile */
   .sidebar {
-    width: 50px;
-    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: -100%; /* cachée */
+    height: 100vh;
+    width: 200px; /* largeur quand ouverte */
+    background-color: #1a1a1a;
+    border-right: 1px solid #00ffcc;
+    padding-top: 60px; /* espace pour le header/burger */
+    transition: left 0.3s ease;
   }
 
-  .sidebar:hover {
-    width: 150px;
-    padding-left: 10px;
+  /* Sidebar ouverte (quand le burger est cliqué) */
+  .sidebar.show {
+    left: 0;
+    width: 200px;
+    padding-left: 15px;
+    align-items: left;
   }
 
-  .sidebar-link {
-    padding: 10px 5px;
+  .sidebar.show .sidebar-link {
+    justify-content: flex-start;
   }
 
-  .sidebar-link .icon {
-    font-size: 1.2rem;
-    width: 50px;
-  }
-
-  .sidebar-link img {
-    width: 20px;
-    height: 20px;
+  .sidebar.show .sidebar-link .text {
+    opacity: 1;
+    margin-left: 55px;
   }
 
   .search-container {
-    width: 90%;
-    margin-bottom: 15px;
+    padding-right: 15px;
   }
 
-  .search-bar {
-    font-size: 0.8em;
-    padding: 8px 30px 8px 8px;
+  .search-result {
+    padding-right: 15px;
   }
 
-  .search-item img {
-    width: 40px;
-    height: 30px;
+  /* Bouton burger visible */
+  .menu-toggle {
+    display: flex;
   }
 
-  .search-item span.title {
-    font-size: 0.85em;
-    font-weight: 500;
-    color: #00ffcc;
-    }
-
-    .search-item span.developer {
-        display: block;
-        font-size: 0.45em;
-        color: #00b3b3;
-        margin-top: 1.5px;
-}   
-
-  /* Décalage contenu */
+  /* Décalage contenu (pas de sidebar fixe) */
   main, header, aside, footer {
-    margin-left: 50px;
-  }
-
-  .sidebar:hover ~ main,
-  .sidebar:hover ~ header,
-  .sidebar:hover ~ aside,
-  .sidebar:hover ~ footer {
-    margin-left: 150px;
+    margin-left: 0px;
   }
 
   /* Features */
   .features {
-    margin: 15px 10px 15px 60px;
+    margin: 15px 10px 15px 10px;
     padding: 15px;
     gap: 1rem;
   }
@@ -136,9 +119,9 @@
   }
 
   .game-toolbar button {
-        padding: 4px 8px;
-        font-size: 12px;
-    }
+    padding: 4px 8px;
+    font-size: 12px;
+  }
 
   .Image {
     height: 120px;
@@ -152,20 +135,20 @@
     height: 300px;
   }
 
-  /*secrion detail (game.html)*/
+  /* Section détail (game.html) */
   .detail-container {
-        flex-direction: column; /* la pub passe sous la description */
-        gap: 10px;
-    }
+    flex-direction: column; /* pub sous la description */
+    gap: 10px;
+  }
 
-    .detail {
-        max-width: 100%; /* prend toute la largeur */
-        margin-right: 0; /* annule le margin-right sur mobile */
-    }
+  .detail {
+    max-width: 100%; 
+    margin-right: 0;
+  }
 
-    .game-ad {
-        min-width: 100%; /* la pub prend toute la largeur */
-    }
+  .game-ad {
+    min-width: 100%; 
+  }
 
   /* Formulaire */
   form {
@@ -209,9 +192,9 @@
 
   /* pub bloc footer*/
   .footer-pub {
-      margin-left: 60px;
-      margin-right: 10px;
-      margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   /* Footer */
