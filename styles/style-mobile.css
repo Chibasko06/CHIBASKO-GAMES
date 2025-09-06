@@ -28,6 +28,15 @@
     font-size: 0.9em;
   }
 
+  /* Bouton burger visible */
+  .menu-toggle {
+    display: flex;
+    position: fixed !important;     /* force position */
+    z-index: 9999 !important;       /* au-dessus de tout */
+    -webkit-transform: translateZ(0); /* force rendu GPU sur mobile */
+    transform: translateZ(0);
+  }
+
   /* Sidebar fermée par défaut sur mobile */
   .sidebar {
     position: fixed;
@@ -64,11 +73,6 @@
 
   .search-result {
     padding-right: 15px;
-  }
-
-  /* Bouton burger visible */
-  .menu-toggle {
-    display: flex;
   }
 
   /* Décalage contenu (pas de sidebar fixe) */
