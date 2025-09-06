@@ -207,6 +207,13 @@
     font-size: 0.9em;
   }
 
+  /* pub bloc footer*/
+  .footer_index {
+      margin-left: 60px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+  }
+
   /* Footer */
   footer {
     font-size: 0.8em;
