@@ -30,15 +30,7 @@
 
   /* Bouton burger visible */
   .menu-toggle {
-    display: flex;
-    position: fixed !important;     /* force position */
-    z-index: 9999 !important;       /* au-dessus de tout */
-    -webkit-transform: translateZ(0); /* force rendu GPU sur mobile */
-    transform: translateZ(0);
-  }
-
-  .menu-toggle span {
-    display: flex;
+    display: block;
   }
 
   /* Sidebar fermée par défaut sur mobile */
@@ -72,11 +64,7 @@
   }
 
   .search-container {
-    padding-right: 15px;
-  }
-
-  .search-result {
-    padding-right: 15px;
+    align-items: center;
   }
 
   /* Décalage contenu (pas de sidebar fixe) */

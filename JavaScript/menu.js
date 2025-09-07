@@ -1,10 +1,13 @@
 /* partie btn burger*/
-document.addEventListener("DOMContentLoaded", () => {
-  const toggle = document.querySelector(".menu-toggle");
-  const sidebar = document.querySelector(".sidebar");
+const toggleBtn = document.querySelector('.menu-toggle');
+const sidebar = document.querySelector('.sidebar');
 
-  toggle.addEventListener("click", () => {
-    toggle.classList.toggle("active"); // anime le burger en croix
-    sidebar.classList.toggle("show");  // affiche ou cache la nav
-  });
+toggleBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('show');
+  // Change le symbole burger ↔ croix
+  if (sidebar.classList.contains('show')) {
+    toggleBtn.textContent = '✖'; 
+  } else {
+    toggleBtn.textContent = '☰';
+  }
 });
