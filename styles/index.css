@@ -56,7 +56,6 @@ header {
     width: 60px;
     background-color: #1a1a1a;
     overflow-x: hidden;
-    transition: width 0.3s ease;
     display: flex;
     justify-content: flex-start; /* aligner à gauche quand on élargit */    
     flex-direction: column;
@@ -64,6 +63,8 @@ header {
     padding-top: 20px;
     z-index: 1000;
     border-right: 1px solid #00ffcc;
+    transition: left 0.3s ease, width 0.3s ease;
+    -webkit-transition: left 0.3s ease, width 0.3s ease; /* Safari */
 }
 
 .sidebar:hover {
@@ -99,7 +100,7 @@ header {
 }
 
 .menu-toggle span {
-  display: block;
+  display: none;
   height: 3px;
   background-color: #00ffcc;
   border-radius: 2px;

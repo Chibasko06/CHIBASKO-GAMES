@@ -37,6 +37,10 @@
     transform: translateZ(0);
   }
 
+  .menu-toggle span {
+    display: flex;
+  }
+
   /* Sidebar fermée par défaut sur mobile */
   .sidebar {
     position: fixed;
