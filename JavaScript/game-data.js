@@ -560,5 +560,16 @@ const games = {
         mobile_compatible: "Oui (Android)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Earthquake io est un simulateur de catastrophe réaliste basé sur la physique en 3D dans lequel vous prenez le contrôle des forces de la Terre pour détruire des villes, détruire des bâtiments et écraser tous les petits objets pour rivaliser avec d'autres joueurs dans une bataille féroce."
+    },
+    football_fun: {
+        title: "Football Fun",
+        url: "https://html5.gamedistribution.com/b59e09ac797a4ccf9ddac5ac0c87a91c/?gd_sdk_referrer_url=https://gamedistribution.com/games/football-fun/",
+        image: "./images/Football fun.jpg",
+        categorie: "Classique",
+        developpeur: "Harbi Games",
+        date_sortie: "30 novembre 2024",
+        mobile_compatible: "Oui (Android et IOS)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Jouez en équipe de 3 joueurs contre vos adversaires. Marquez des buts et parez les attaques. Devenez le meilleur joueur ! Le jeu propose une boutique où vous pouvez acheter de nombreux ballons et même des stades. Les meilleurs joueurs accèdent au classement."
     }
 };
