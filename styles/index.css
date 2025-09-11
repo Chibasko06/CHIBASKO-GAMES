@@ -719,6 +719,7 @@ iframe {
 
 .mentionsLegales-layout .ads-container {
     flex: 0 0 200px; /* largeur fixe pour les pubs */
+    justify-content: center;
 }
 
 /* Titre principal */
