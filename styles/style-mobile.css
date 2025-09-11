@@ -186,6 +186,10 @@
     font-size: 0.9em;
   }
 
+  .mentionsLegales-layout .ads-container {
+    display: none;
+  }
+
   /* pub bloc footer*/
   .footer-pub {
     margin-left: 60px;
