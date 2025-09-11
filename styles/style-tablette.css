@@ -167,6 +167,10 @@
     max-width: 100%;
   }
 
+  .mentionsLegales-layout .ads-container {
+    display: none;
+  }
+
   .mentionsLegales > h1 {
     font-size: 1.7em;
   }
