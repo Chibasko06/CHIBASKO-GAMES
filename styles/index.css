@@ -699,6 +699,15 @@ iframe {
 
 /* mentions legales*/
 /* Section principale */
+.mentionsLegales-layout {
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: flex-start; /* aligne en haut */
+    gap: 20px; /* espace entre les colonnes */
+    margin: 20px auto;
+    max-width: 1200px; /* largeur max */
+}
+
 .mentionsLegales {
     flex: 1; /* occupe l’espace restant */
     max-width: 800px; /* un peu plus large pour respirer */
@@ -708,6 +717,9 @@ iframe {
     box-shadow: 0 0 25px rgba(0, 255, 204, 0.08);
 }
 
+.mentionsLegales-layout .ads-container {
+    flex: 0 0 200px; /* largeur fixe pour les pubs */
+}
 
 /* Titre principal */
 .mentionsLegales > h1 {
