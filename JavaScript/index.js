@@ -1,93 +1,112 @@
-//scroll bar
+// ===============================
+// SCROLL BAR (compatible iOS)
+// ===============================
 document.querySelectorAll('.games-carousel').forEach(carousel => {
     const wrapper = carousel.querySelector('.games-wrapper');
     const btnLeft = carousel.querySelector('.carousel-btn.left');
     const btnRight = carousel.querySelector('.carousel-btn.right');
 
-// Fonction pour vérifier si on est au début ou à la fin
+    // Fonction pour vérifier si on est au début ou à la fin
     function updateButtons() {
         const scrollLeft = wrapper.scrollLeft;
         const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
 
         // Tout à gauche
-        if (scrollLeft <= 0) {
-            btnLeft.style.display = "none";
-        } else {
-            btnLeft.style.display = "flex";
-        }
-
+        btnLeft.style.display = scrollLeft <= 1 ? "none" : "flex";
         // Tout à droite
-        if (scrollLeft >= maxScrollLeft) {
-            btnRight.style.display = "none";
-        } else {
-            btnRight.style.display = "flex";
+        btnRight.style.display = scrollLeft >= maxScrollLeft - 1 ? "none" : "flex";
+    }
+
+    // Fonction de scroll compatible iOS (sans behavior si non supporté)
+    function safeScrollBy(delta) {
+        try {
+            wrapper.scrollBy({ left: delta, behavior: 'smooth' });
+        } catch {
+            // fallback pour iOS anciens
+            wrapper.scrollLeft += delta;
         }
     }
 
-   // Écouter le clic sur les boutons
-    btnLeft.addEventListener('click', () => {
-        wrapper.scrollBy({ left: -500, behavior: 'smooth' });
-    });
+    // Écouter le clic sur les boutons
+    btnLeft.addEventListener('click', () => safeScrollBy(-500));
+    btnRight.addEventListener('click', () => safeScrollBy(500));
 
-    btnRight.addEventListener('click', () => {
-        wrapper.scrollBy({ left: 500, behavior: 'smooth' });
-    });
-
-     // Vérifier au chargement et quand on scroll
-    wrapper.addEventListener('scroll', updateButtons);
+    // Vérifier au chargement et quand on scroll
+    wrapper.addEventListener('scroll', updateButtons, { passive: true });
     window.addEventListener('resize', updateButtons);
 
     // Premier appel
     updateButtons();
 });
 
-// Code existant pour charger les jeux dans un iframe
+// ===============================
+// CHARGEMENT D'UN JEU DANS UN IFRAME
+// ===============================
 document.querySelectorAll('.Image').forEach(container => {
-    container.addEventListener('click', () => {
+    let lastTouch = 0;
+    const loadIframe = () => {
         const gameURL = container.getAttribute('data-game');
-        container.innerHTML = `<iframe src="${gameURL}" allowfullscreen></iframe>`;
-    });
+        container.innerHTML = `<iframe src="${gameURL}" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>`;
+    };
+
+    // Gestion du tactile + clic sans double déclenchement
+    container.addEventListener('touchend', e => {
+        const now = Date.now();
+        if (now - lastTouch < 600) return; // éviter double tap
+        lastTouch = now;
+        loadIframe();
+    }, { passive: true });
+
+    container.addEventListener('click', loadIframe);
 });
 
+// ===============================
+// PARTIE JEU (chargement depuis URL)
+// ===============================
+const params = new URLSearchParams(window.location.search);
+const gameId = params.get('id');
 
-/*parti jeux */
+if (typeof games !== "undefined" && games[gameId]) {
+    const g = games[gameId];
+    document.getElementById("game-head").textContent = g.title;
+    document.getElementById("game-title").textContent = g.title;
 
-// Récupère l'ID depuis l'URL
-        const params = new URLSearchParams(window.location.search);
-        const gameId = params.get('id');
+    const frame = document.getElementById("game-frame");
+    frame.setAttribute('allowfullscreen', '');
+    frame.setAttribute('webkitallowfullscreen', '');
+    frame.setAttribute('mozallowfullscreen', '');
+    frame.src = g.url;
 
-        // Vérifie si le jeu existe dans notre liste
-        if (games[gameId]) {
-            document.getElementById("game-head").textContent = games[gameId].title;
-            document.getElementById("game-title").textContent = games[gameId].title;
-            document.getElementById("game-frame").src = games[gameId].url;
-            document.getElementById("game-developpeur").textContent = games[gameId].developpeur;
-            document.getElementById("game-date_sortie").textContent = games[gameId].date_sortie;
-            document.getElementById("game-mobile_compatible").textContent =games[gameId].mobile_compatible;
-            document.getElementById("game-technologie").textContent = games[gameId].technologie;
-            document.getElementById("game-description").textContent = games[gameId].description;
-        } else {
-            document.getElementById("game-title").textContent = "Jeu introuvable";
-            document.getElementById("game-description").textContent = "Désolé, ce jeu n'existe pas.";
-        }
+    document.getElementById("game-developpeur").textContent = g.developpeur;
+    document.getElementById("game-date_sortie").textContent = g.date_sortie;
+    document.getElementById("game-mobile_compatible").textContent = g.mobile_compatible;
+    document.getElementById("game-technologie").textContent = g.technologie;
+    document.getElementById("game-description").textContent = g.description;
+} else {
+    document.getElementById("game-title").textContent = "Jeu introuvable";
+    document.getElementById("game-description").textContent = "Désolé, ce jeu n'existe pas.";
+}
 
-
-/*option de iframe (plein ecrant et recharger)*/
+// ===============================
+// OPTIONS IFRAME (plein écran + reload)
+// ===============================
 document.addEventListener("DOMContentLoaded", () => {
     const iframe = document.getElementById("game-frame");
     const fullscreenBtn = document.getElementById("fullscreen-btn");
     const reloadBtn = document.getElementById("reload-btn");
 
-    // Plein écran
+    //Plein écran : compatible iOS (utilise webkitRequestFullscreen si dispo)
     fullscreenBtn.addEventListener("click", () => {
         if (iframe.requestFullscreen) {
             iframe.requestFullscreen();
-        } else if (iframe.mozRequestFullScreen) { // Firefox
-            iframe.mozRequestFullScreen();
-        } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari, Opera
+        } else if (iframe.webkitRequestFullscreen) { // Safari iOS
             iframe.webkitRequestFullscreen();
-        } else if (iframe.msRequestFullscreen) { // IE/Edge
+        } else if (iframe.mozRequestFullScreen) {
+            iframe.mozRequestFullScreen();
+        } else if (iframe.msRequestFullscreen) {
             iframe.msRequestFullscreen();
+        } else {
+            alert("Le plein écran n’est pas supporté sur ce navigateur.");
         }
     });
 
