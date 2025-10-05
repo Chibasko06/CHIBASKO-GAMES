@@ -343,11 +343,7 @@ article h6 {
     margin-left: 70px;
     margin-right: 10px;
     margin-bottom: 20px;
-    width: calc(100% - 40px); /* prend toute la largeur restante */
-    display: flex;
-    justify-content: center; /* centre le contenu */
-    flex-wrap: wrap; /* s’adapte si plusieurs pubs */
-    gap: 20px; /* espace entre les pubs si plusieurs */
+    width: auto;
 }
 
 /* Footer */
