@@ -95,18 +95,44 @@ document.addEventListener("DOMContentLoaded", () => {
     const fullscreenBtn = document.getElementById("fullscreen-btn");
     const reloadBtn = document.getElementById("reload-btn");
 
-    //Plein écran : compatible iOS (utilise webkitRequestFullscreen si dispo)
+    // Détection iOS
+    function isIOS() {
+        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    }
+
+    // Plein écran (compatible iOS)
     fullscreenBtn.addEventListener("click", () => {
+        const gameURL = iframe?.src;
+
+        if (!gameURL) {
+            alert("Aucun jeu chargé.");
+            return;
+        }
+
+        if (isIOS()) {
+            // Sur iOS, le plein écran iframe est bloqué => ouvrir le jeu dans un nouvel onglet
+            window.open(gameURL, '_blank', 'noopener');
+            return;
+        }
+
+        // Autres navigateurs → essayer le plein écran natif
         if (iframe.requestFullscreen) {
-            iframe.requestFullscreen();
-        } else if (iframe.webkitRequestFullscreen) { // Safari iOS
-            iframe.webkitRequestFullscreen();
+            iframe.requestFullscreen().catch(() => {
+                window.open(gameURL, '_blank', 'noopener');
+            });
+        } else if (iframe.webkitRequestFullscreen) {
+            try {
+                iframe.webkitRequestFullscreen();
+            } catch {
+                window.open(gameURL, '_blank', 'noopener');
+            }
         } else if (iframe.mozRequestFullScreen) {
             iframe.mozRequestFullScreen();
         } else if (iframe.msRequestFullscreen) {
             iframe.msRequestFullscreen();
         } else {
-            alert("Le plein écran n’est pas supporté sur ce navigateur.");
+            // Si rien n’est supporté, dernier recours
+            window.open(gameURL, '_blank', 'noopener');
         }
     });
 
