@@ -571,5 +571,16 @@ const games = {
         mobile_compatible: "Oui (Android et IOS)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Jouez en équipe de 3 joueurs contre vos adversaires. Marquez des buts et parez les attaques. Devenez le meilleur joueur ! Le jeu propose une boutique où vous pouvez acheter de nombreux ballons et même des stades. Les meilleurs joueurs accèdent au classement."
+    },
+    formula_traffic_racer: {
+        title: "Formula Traffic Racer",
+        url: "https://html5.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb/?gd_sdk_referrer_url=https://gamedistribution.com/games/formula-traffic-racer/",
+        image: "./images/Formula_traffic_racer.jpg",
+        categorie: "Classique",
+        developpeur: "Fuego! games",
+        date_sortie: "09 octobre 2025",
+        mobile_compatible: "Oui (Android et IOS)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Faites déraper 6 superbes F1 équipées de kits carrosserie modifiés et pilotez-les sur 3 autoroutes sans accident. Montrez votre talent au volant de ces bolides aux moteurs rugissants et dominez 3 modes de jeu exceptionnels. Utilisez la nitro pour dépasser les voitures lentes et roulez à toute vitesse. Personnalisez et améliorez vos voitures avec les meilleures améliorations et exploitez-les au maximum. Prêt à démontrer vos talents de pilote ? Faites vos preuves dans F1 Traffic Racer."
     }
 };

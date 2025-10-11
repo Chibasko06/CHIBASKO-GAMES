@@ -139,6 +139,10 @@ football fun:
 
 <iframe src="https://html5.gamedistribution.com/b59e09ac797a4ccf9ddac5ac0c87a91c/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+Formula Traffic Racer:
+
+<iframe src="https://html5.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :
