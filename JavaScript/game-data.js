@@ -575,7 +575,7 @@ const games = {
     formula_traffic_racer: {
         title: "Formula Traffic Racer",
         url: "https://html5.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb/?gd_sdk_referrer_url=https://gamedistribution.com/games/formula-traffic-racer/",
-        image: "./images/Formula_traffic_racer.jpg",
+        image: "./images/Formula_traffic-racer.jpg",
         categorie: "Classique",
         developpeur: "Fuego! games",
         date_sortie: "09 octobre 2025",
