@@ -590,6 +590,7 @@ const games = {
         categorie: "Classique",
         developpeur: "TrendyGames",
         date_sortie: "26 mars 2020",
+        mobile_compatible: "Oui (Android et IOS)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Bienvenue dans le jeu de société classique Ultimate Connect 4. Ce jeu est connu de tous. Le but du jeu est de relier 4 tuiles de votre couleur sur une même ligne (verticale, horizontale ou diagonale). Vous pouvez également choisir le nombre de lignes et de colonnes."
     }
