@@ -582,5 +582,15 @@ const games = {
         mobile_compatible: "Oui (Android et IOS)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Faites déraper 6 superbes F1 équipées de kits carrosserie modifiés et pilotez-les sur 3 autoroutes sans accident. Montrez votre talent au volant de ces bolides aux moteurs rugissants et dominez 3 modes de jeu exceptionnels. Utilisez la nitro pour dépasser les voitures lentes et roulez à toute vitesse. Personnalisez et améliorez vos voitures avec les meilleures améliorations et exploitez-les au maximum. Prêt à démontrer vos talents de pilote ? Faites vos preuves dans F1 Traffic Racer."
+    },
+    puissance_4: {
+        title: "Puissance 4",
+        url: "https://html5.gamedistribution.com/9ca8e4d3f2b74338bc12df7a2c4299a4/?gd_sdk_referrer_url=https://gamedistribution.com/games/ultimate-connect-4/",
+        image: "./images/puissance_4.jpg",
+        categorie: "Classique",
+        developpeur: "TrendyGames",
+        date_sortie: "26 mars 2020",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Bienvenue dans le jeu de société classique Ultimate Connect 4. Ce jeu est connu de tous. Le but du jeu est de relier 4 tuiles de votre couleur sur une même ligne (verticale, horizontale ou diagonale). Vous pouvez également choisir le nombre de lignes et de colonnes."
     }
 };
