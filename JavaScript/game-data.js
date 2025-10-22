@@ -604,5 +604,16 @@ const games = {
         mobile_compatible: "Oui (Android et IOS)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Bienvenue au dojo, ninja. Votre objectif : devenir un maître du découpage de fruits ! Quoi de mieux que de jouer à Fruit Ninja, le jeu mobile original de découpage de fruits ? Dégainez votre lame et lancez un carnage juteux avec les trois modes de jeu classiques que des milliards de joueurs ont appris à connaître et à apprécier."
+    },
+    soccer_arena_x: {
+        title: "Soccer Arena X",
+        url: "https://html5.gamedistribution.com/9ab793f828274581b717f1471dbc513c/?gd_sdk_referrer_url=https://gamedistribution.com/games/soccer-arena-x/",
+        image: "./images/soccer_arena_x.jpg",
+        categorie: "Classique",
+        developpeur: "GameBerry Studio",
+        date_sortie: "26 août 2025",
+        mobile_compatible: "Oui (Android et IOS)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "Soccer Arena X est un jeu de football captivant proposant des matchs dynamiques, des commandes simples et un gameplay arcade coloré. Chaque match est rapide, amusant et dynamique, vous offrant une expérience de football multijoueur ultime. Au fil de votre progression, vous collecterez des pièces et des gemmes pour débloquer de puissantes capacités comme le gel, l'éclair, le super coup de pied ou une tête géante, ajoutant une touche d'arcade dynamique et divertissante au gameplay. Entrez sur le terrain, marquez des buts et devenez une star du football !"
     }
 };
