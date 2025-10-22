@@ -143,6 +143,22 @@ Formula Traffic Racer:
 
 <iframe src="https://html5.gamedistribution.com/940c7c7f620b46f0ba61998e9a98b8fb/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
 
+socer arena x:
+
+<iframe src="https://html5.gamedistribution.com/9ab793f828274581b717f1471dbc513c/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+fruit ninja:
+
+<iframe src="https://html5.gamedistribution.com/a186dc9ac7f548f884db8ff54df6dd9f/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
+puissance 4:
+
+<iframe src="https://html5.gamedistribution.com/9ca8e4d3f2b74338bc12df7a2c4299a4/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="900" height="600" scrolling="none" frameborder="0"></iframe>
+
+crazy fruit merge:
+
+<iframe src="https://html5.gamedistribution.com/bc81c0b82dba4e318c9aa206146912f3/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="800" height="600" scrolling="none" frameborder="0"></iframe>
+
 /* action */
 
 orc hero :

@@ -615,5 +615,16 @@ const games = {
         mobile_compatible: "Oui (Android et IOS)",
         technologie: "HTML5 (Unity WebGL)",
         description: "Soccer Arena X est un jeu de football captivant proposant des matchs dynamiques, des commandes simples et un gameplay arcade coloré. Chaque match est rapide, amusant et dynamique, vous offrant une expérience de football multijoueur ultime. Au fil de votre progression, vous collecterez des pièces et des gemmes pour débloquer de puissantes capacités comme le gel, l'éclair, le super coup de pied ou une tête géante, ajoutant une touche d'arcade dynamique et divertissante au gameplay. Entrez sur le terrain, marquez des buts et devenez une star du football !"
+    },
+    crazy_fruit_merge: {
+        title: "Crazy Fruit Merge",
+        url: "https://html5.gamedistribution.com/bc81c0b82dba4e318c9aa206146912f3/?gd_sdk_referrer_url=https://gamedistribution.com/games/crazy-fruit-merge/",
+        image: "./images/crazy_fruit_merge.jpg",
+        categorie: "Classique",
+        developpeur: "Inlogic Software",
+        date_sortie: "12 août 2025",
+        mobile_compatible: "Oui (Android et IOS)",
+        technologie: "HTML5 (Unity WebGL)",
+        description: "À la recherche du jeu relaxant idéal ? Parfois, un simple puzzle amusant suffit. Fusionnez des fruits, stimulez votre cerveau et utilisez des bonus pour accélérer le jeu. Progressez et visez le meilleur score !"
     }
 };
