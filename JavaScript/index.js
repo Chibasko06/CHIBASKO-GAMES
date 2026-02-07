@@ -1,5 +1,5 @@
 // ===============================
-// SCROLL BAR (compatible iOS)
+// SCROLL BAR (compatible iOS) + FIX boutons au chargement (contenu injecté)
 // ===============================
 document.querySelectorAll('.games-carousel').forEach(carousel => {
     const wrapper = carousel.querySelector('.games-wrapper');
@@ -10,6 +10,14 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
     function updateButtons() {
         const scrollLeft = wrapper.scrollLeft;
         const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+
+        // si on ne peut pas scroller => cacher les deux
+        const canScroll = maxScrollLeft > 1;
+        if (!canScroll) {
+            btnLeft.style.display = "none";
+            btnRight.style.display = "none";
+            return;
+        }
 
         // Tout à gauche
         btnLeft.style.display = scrollLeft <= 1 ? "none" : "flex";
@@ -34,10 +42,19 @@ document.querySelectorAll('.games-carousel').forEach(carousel => {
     // Vérifier au chargement et quand on scroll
     wrapper.addEventListener('scroll', updateButtons, { passive: true });
     window.addEventListener('resize', updateButtons);
+    window.addEventListener('load', updateButtons);
+
+    // FIX: tes jeux sont ajoutés après (daily*.js) → recalcul quand le wrapper change
+    const obs = new MutationObserver(() => requestAnimationFrame(updateButtons));
+    obs.observe(wrapper, { childList: true, subtree: true });
+
+    // FIX: quand les images finissent de charger, la largeur change
+    wrapper.addEventListener('load', () => requestAnimationFrame(updateButtons), true);
 
     // Premier appel
     updateButtons();
 });
+
 
 // ===============================
 // CHARGEMENT D'UN JEU DANS UN IFRAME
